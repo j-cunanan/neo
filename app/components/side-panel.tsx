@@ -25,6 +25,11 @@ const SidePanel: React.FC = () => {
         const result = await response.json();
         console.log(result);
       }
+      
+      // After all transcripts have been ingested, generate the datasource
+      const response = await fetch('/api/generate', { method: 'POST' });
+      const result = await response.json();
+      console.log(result);
 
       
     } catch (error) {

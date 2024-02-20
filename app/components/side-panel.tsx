@@ -4,9 +4,6 @@ import React, { useState, useEffect } from 'react';
 
 const SidePanel: React.FC = () => {
   const [links, setLinks] = useState<string[]>([
-    'https://www.youtube.com/watch?v=zjkBMFhNj_g',
-    'https://www.youtube.com/watch?v=gR_f-iwUGY4',
-    // Add more links as needed
   ]);
   
   const [newLink, setNewLink] = useState('');

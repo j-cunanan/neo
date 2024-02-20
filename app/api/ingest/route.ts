@@ -19,14 +19,25 @@ export async function GET(req: NextRequest, res: NextResponse) {
 
   try {
     const transcript = await YoutubeTranscript.fetchTranscript(videoId);
-    const transcriptText = transcript.map((item) => item.text).join(" ");
+    let srtContent = "";
+    transcript.forEach((item, index) => {
+      const start = new Date(item.offset).toISOString().substring(11, 23);
+      const end = new Date((item.offset + item.duration))
+        .toISOString()
+        .substring(11, 23);
+      console.log(item.offset, item.duration);
+      srtContent += `${index + 1}\n${start.replace(".", ",")} --> ${end.replace(
+        ".",
+        ","
+      )}\n${item.text}\n\n`;
+    });
 
     // Ensure the STORAGE_DIR exists
     await fs.mkdir(STORAGE_DIR, { recursive: true });
 
     // Save the transcript to a file
     const filePath = path.join(STORAGE_DIR, `${videoId}.txt`);
-    await fs.writeFile(filePath, transcriptText, "utf-8");
+    await fs.writeFile(filePath, srtContent, "utf-8");
 
     return new NextResponse(
       JSON.stringify({ message: "Transcript downloaded successfully" }),

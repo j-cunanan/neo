@@ -25,10 +25,12 @@ To set up Neo on your local machine, especially tailored for Next.js framework, 
 3. **Configure Environment Variables**: Rename the provided `.env_sample` file to `.env.local`. This file should include all the necessary API keys and environment-specific variables. Make sure to fill in the relevant keys:
 
     ```
-    NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
+    MODEL=gpt-3.5-turbo-0125
+    NEXT_PUBLIC_MODEL=gpt-3.5-turbo-0125
+    OPENAI_API_KEY=sk-...
     ```
 
-    Replace `your_openai_api_key_here` with your actual OpenAI API key. Add any other relevant keys in a similar fashion.
+    Replace the keys with your actual API keys. Add any other relevant keys in a similar fashion.
 
 4. **Run the Development Server**: Launch the Next.js development server by running `npm run dev` or `yarn dev`. Your Neo application should now be accessible at `http://localhost:3000`.
 

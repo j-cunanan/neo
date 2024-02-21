@@ -52,7 +52,19 @@ const SidePanel: React.FC = () => {
         const result = await response.json();
         console.log(result);
       }
-      
+      // After all transcripts have been ingested, generate the datasource
+      const doctype = 'md'; // or 'txt', depending on what you want to send
+
+      const response = await fetch('/api/generate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json', // Indicates that the body contains JSON
+        },
+        body: JSON.stringify({
+          doctype: doctype, // Include the doctype in the request body
+        }),
+      });
+
     } catch (error) {
       console.error('Failed to ingest blog:', error);
     }

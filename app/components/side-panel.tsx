@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 const SidePanel: React.FC = () => {
   const [links, setLinks] = useState<string[]>([
   ]);
-  
+
   const [newLink, setNewLink] = useState('');
 
   const ingestTranscripts = async () => {
@@ -22,17 +22,41 @@ const SidePanel: React.FC = () => {
         const result = await response.json();
         console.log(result);
       }
-      
+
       // After all transcripts have been ingested, generate the datasource
       const response = await fetch('/api/generate', { method: 'POST' });
       const result = await response.json();
       console.log(result);
 
-      
+
     } catch (error) {
       console.error('Failed to ingest transcripts:', error);
     }
   };
+
+  const ingestBlog = async () => {
+    try {
+      const blog_links = links.map((link) => {
+        const url = new URL(link);
+        return url;
+      });
+      for (const blog_link of blog_links) {
+        console.log(`Ingesting blog ${blog_link}...`);
+        const response = await fetch('../api/ingest-blog', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ url: blog_link }),
+        });
+        const result = await response.json();
+        console.log(result);
+      }
+      
+    } catch (error) {
+      console.error('Failed to ingest blog:', error);
+    }
+  }
 
   const handleAddLink = () => {
     if (newLink) {
@@ -67,6 +91,9 @@ const SidePanel: React.FC = () => {
       </div>
       <button onClick={ingestTranscripts} className="mt-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
         Ingest Transcripts
+      </button>
+      <button onClick={ingestBlog} className="mt-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+        Ingest Blog
       </button>
     </aside>
   );

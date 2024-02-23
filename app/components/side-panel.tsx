@@ -24,7 +24,13 @@ const SidePanel: React.FC = () => {
       }
 
       // After all transcripts have been ingested, generate the datasource
-      const response = await fetch('/api/generate', { method: 'POST' });
+      const response = await fetch('/api/generate', {
+        method: 'POST',
+        body: JSON.stringify({ doctype: 'md' }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
       const result = await response.json();
       console.log(result);
 
@@ -55,7 +61,7 @@ const SidePanel: React.FC = () => {
       // After all transcripts have been ingested, generate the datasource
       const doctype = 'md'; // or 'txt', depending on what you want to send
 
-      const response = await fetch('/api/generate', {
+      await fetch('/api/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json', // Indicates that the body contains JSON

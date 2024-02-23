@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import { NextRequest, NextResponse } from "next/server";
 import {
   serviceContextFromDefaults,
   SimpleDirectoryReader,
@@ -7,9 +7,9 @@ import {
   ServiceContext,
   OpenAIEmbedding,
   SimpleNodeParser,
-  MarkdownNodeParser,
   PromptHelper,
   SentenceSplitter,
+  MarkdownNodeParser, 
 } from "llamaindex";
 
 import * as dotenv from "dotenv";
@@ -39,10 +39,7 @@ async function generateDatasource(serviceContext: ServiceContext) {
     const documents = await new SimpleDirectoryReader().loadData({
       directoryPath: STORAGE_DIR,
     });
-    const nodeParser = new SimpleNodeParser();
-    const nodes = nodeParser.getNodesFromDocuments(documents);
     await VectorStoreIndex.fromDocuments(documents, {
-      nodes,
       storageContext,
       serviceContext,
     });
@@ -50,8 +47,9 @@ async function generateDatasource(serviceContext: ServiceContext) {
   console.log(`Storage context successfully generated in ${ms / 1000}s.`);
 }
 
-export async function POST(req: NextApiRequest, res: NextApiResponse) {
-  const { doctype } = req.body;
+export async function POST(req: NextRequest, res: NextResponse) {
+  const body = await req.json();
+  const doctype = body.doctype;
 
   const openaiEmbeds = new OpenAIEmbedding({ model: "text-embedding-3-small" });
   const textSplitter = new SentenceSplitter({ splitLongSentences: true });
@@ -59,8 +57,10 @@ export async function POST(req: NextApiRequest, res: NextApiResponse) {
   // Initialize the appropriate NodeParser based on `doctype`
   let nodeParser;
   if (doctype === "md") {
+    console.log("Using MarkdownNodeParser"); 
     nodeParser = new MarkdownNodeParser();
   } else {
+    console.log("Using SimpleNodeParser");
     // Default to SimpleNodeParser if `doctype` is 'txt' or unspecified
     nodeParser = new SimpleNodeParser({
       chunkSize: CHUNK_SIZE,
@@ -73,5 +73,8 @@ export async function POST(req: NextApiRequest, res: NextApiResponse) {
     embedModel: openaiEmbeds,
   });
   await generateDatasource(serviceContext);
-  res.status(200).json({ message: "Storage context successfully generated." });
+  return NextResponse.json(
+    { message: "Storage context successfully generated." },
+    { status: 200 }
+  );
 }

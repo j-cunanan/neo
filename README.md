@@ -46,6 +46,7 @@ Follow these steps to get your Neo project up and running, ready to ingest YouTu
 ## TODO
 
 - [ ] **User Interface Improvements**: Enhance the user interface for a more intuitive experience during the ingestion process and interactions.
+- [ ] **Add notifications or loading screen for events**: Ingesting, vectorizing, and storing data can take time. Add notifications or a loading screen to inform users of the progress.
 - [ ] **Support for Multiple Languages**: Expand the tool's capabilities to ingest and process transcripts in multiple languages.
 - [ ] **Integration with Vector Databases**: Add support for storing vectorized data in external vector databases for scalability.
 - [ ] **Real-Time Transcript Updates**: Implement functionality to automatically update transcripts and their vectorized forms when new content is available.

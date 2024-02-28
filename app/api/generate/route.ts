@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import { NextRequest, NextResponse } from "next/server";
 import {
   serviceContextFromDefaults,
   SimpleDirectoryReader,
@@ -47,8 +47,9 @@ async function generateDatasource(serviceContext: ServiceContext) {
   console.log(`Storage context successfully generated in ${ms / 1000}s.`);
 }
 
-export async function POST(req: NextApiRequest, res: NextApiResponse) {
-  const { doctype } = req.body;
+export async function POST(req: NextRequest) {
+  const body = await req.json();
+  const doctype = body.doctype;
 
   const openaiEmbeds = new OpenAIEmbedding({ model: "text-embedding-3-small" });
   const textSplitter = new SentenceSplitter({ splitLongSentences: true });
@@ -70,5 +71,13 @@ export async function POST(req: NextApiRequest, res: NextApiResponse) {
     embedModel: openaiEmbeds,
   });
   await generateDatasource(serviceContext);
-  res.status(200).json({ message: "Storage context successfully generated." });
+  return new NextResponse(
+    JSON.stringify({ message: "Datasource generated successfully" }),
+    {
+      status: 200,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  );
 }

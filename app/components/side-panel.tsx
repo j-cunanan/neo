@@ -1,6 +1,8 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-
+import { Input } from './ui/input';
+import { Button } from './ui/button';
+import { PlusIcon } from '@radix-ui/react-icons'
 
 const SidePanel: React.FC = () => {
   const [links, setLinks] = useState<string[]>([
@@ -84,8 +86,8 @@ const SidePanel: React.FC = () => {
   };
 
   return (
-    <aside className="w-64 h-full bg-gray-100 p-4">
-      <h2 className="text-lg font-semibold mb-4">YouTube Links</h2>
+    <aside className="w-64 h-full p-4">
+      <h2 className="text-lg font-semibold mb-4">Resource Links</h2>
       <ul>
         {links.map((link, index) => (
           <li key={index}>
@@ -95,24 +97,25 @@ const SidePanel: React.FC = () => {
           </li>
         ))}
       </ul>
-      <div className="mt-4">
-        <input
+      <div >
+        <Input
           type="text"
           value={newLink}
           onChange={(e) => setNewLink(e.target.value)}
           placeholder="Add new link"
-          className="mr-2 p-1 border border-gray-300"
+          className="mt-4"
         />
-        <button onClick={handleAddLink} className="p-1 bg-blue-500 text-white rounded hover:bg-blue-600">
-          Add Link
-        </button>
+        <Button className="flex h-10 w-full mt-2" onClick={handleAddLink}>
+        <PlusIcon className="h-4 w-4 mr-2" />
+           Add Resource
+        </Button>
       </div>
-      <button onClick={ingestTranscripts} className="mt-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+      <Button className="flex h-10 w-full mt-2" onClick={ingestTranscripts}>
         Ingest Transcripts
-      </button>
-      <button onClick={ingestBlog} className="mt-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+      </Button>
+      <Button className="flex h-10 w-full mt-2" onClick={ingestBlog}>
         Ingest Blog
-      </button>
+      </Button>
     </aside>
   );
 };

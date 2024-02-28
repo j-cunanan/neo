@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { PlusIcon } from '@radix-ui/react-icons'
+import { PlusIcon, ReloadIcon } from '@radix-ui/react-icons'
 
 const SidePanel: React.FC = () => {
   const [links, setLinks] = useState<string[]>([
@@ -11,6 +11,7 @@ const SidePanel: React.FC = () => {
   const [newLink, setNewLink] = useState('');
 
   const ingestTranscripts = async () => {
+    setIsLoading(true);
     try {
       const videoIds = links.map((link) => {
         const url = new URL(link);
@@ -34,15 +35,18 @@ const SidePanel: React.FC = () => {
         },
       });
       const result = await response.json();
-      console.log(result);
-
+      setIsLoading(false);
 
     } catch (error) {
+      setIsLoading(false);
       console.error('Failed to ingest transcripts:', error);
     }
   };
 
+  const [isLoading, setIsLoading] = useState(false);
+
   const ingestBlog = async () => {
+    setIsLoading(true);
     try {
       const blog_links = links.map((link) => {
         const url = new URL(link);
@@ -72,8 +76,10 @@ const SidePanel: React.FC = () => {
           doctype: doctype, // Include the doctype in the request body
         }),
       });
+      setIsLoading(false);
 
     } catch (error) {
+      setIsLoading(false);
       console.error('Failed to ingest blog:', error);
     }
   }
@@ -106,12 +112,19 @@ const SidePanel: React.FC = () => {
           className="mt-4"
         />
         <Button className="flex h-10 w-full mt-2" onClick={handleAddLink}>
-        <PlusIcon className="h-4 w-4 mr-2" />
-           Add Resource
+          <PlusIcon className="h-4 w-4 mr-2" />
+          Add Resource
         </Button>
       </div>
-      <Button className="flex h-10 w-full mt-2" onClick={ingestTranscripts}>
-        Ingest Transcripts
+      <Button className="flex h-10 w-full mt-2" onClick={ingestTranscripts} disabled={isLoading}>
+        {isLoading ? (
+          <>
+            <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
+            Please wait
+          </>
+        ) : (
+          'Ingest Transcripts'
+        )}
       </Button>
       <Button className="flex h-10 w-full mt-2" onClick={ingestBlog}>
         Ingest Blog

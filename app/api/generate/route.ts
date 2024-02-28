@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+import type { NextApiRequest, NextApiResponse } from "next";
 import {
   serviceContextFromDefaults,
   SimpleDirectoryReader,
@@ -7,9 +7,9 @@ import {
   ServiceContext,
   OpenAIEmbedding,
   SimpleNodeParser,
+  MarkdownNodeParser,
   PromptHelper,
   SentenceSplitter,
-  MarkdownNodeParser, 
 } from "llamaindex";
 
 import * as dotenv from "dotenv";
@@ -47,9 +47,8 @@ async function generateDatasource(serviceContext: ServiceContext) {
   console.log(`Storage context successfully generated in ${ms / 1000}s.`);
 }
 
-export async function POST(req: NextRequest, res: NextResponse) {
-  const body = await req.json();
-  const doctype = body.doctype;
+export async function POST(req: NextApiRequest, res: NextApiResponse) {
+  const { doctype } = req.body;
 
   const openaiEmbeds = new OpenAIEmbedding({ model: "text-embedding-3-small" });
   const textSplitter = new SentenceSplitter({ splitLongSentences: true });
@@ -57,10 +56,8 @@ export async function POST(req: NextRequest, res: NextResponse) {
   // Initialize the appropriate NodeParser based on `doctype`
   let nodeParser;
   if (doctype === "md") {
-    console.log("Using MarkdownNodeParser"); 
     nodeParser = new MarkdownNodeParser();
   } else {
-    console.log("Using SimpleNodeParser");
     // Default to SimpleNodeParser if `doctype` is 'txt' or unspecified
     nodeParser = new SimpleNodeParser({
       chunkSize: CHUNK_SIZE,
@@ -73,8 +70,5 @@ export async function POST(req: NextRequest, res: NextResponse) {
     embedModel: openaiEmbeds,
   });
   await generateDatasource(serviceContext);
-  return NextResponse.json(
-    { message: "Storage context successfully generated." },
-    { status: 200 }
-  );
+  res.status(200).json({ message: "Storage context successfully generated." });
 }

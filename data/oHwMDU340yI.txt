@@ -1,0 +1,4320 @@
+1
+00:00:00,640 --> 00:00:07,200
+wonderful so um so when I got the
+
+2
+00:00:03,919 --> 00:00:08,599
+invitation I I um I went to the website
+
+3
+00:00:07,200 --> 00:00:10,559
+and I checked out what the course is
+
+4
+00:00:08,599 --> 00:00:13,440
+about right so what's covered in the
+
+5
+00:00:10,559 --> 00:00:14,920
+course and this is this is what I found
+
+6
+00:00:13,440 --> 00:00:17,359
+and there actually a lot of things here
+
+7
+00:00:14,920 --> 00:00:19,840
+on this slide that I like to talk about
+
+8
+00:00:17,359 --> 00:00:21,840
+right so there's a lot of things that I
+
+9
+00:00:19,840 --> 00:00:25,279
+have interest in so I'm very interested
+
+10
+00:00:21,840 --> 00:00:27,519
+in um uh uh designing these kind of
+
+11
+00:00:25,279 --> 00:00:29,439
+systems I mean there could be a whole
+
+12
+00:00:27,519 --> 00:00:31,960
+you could fill a whole semester talking
+
+13
+00:00:29,439 --> 00:00:34,719
+about design these systems developing
+
+14
+00:00:31,960 --> 00:00:37,480
+and deploying is always very interesting
+
+15
+00:00:34,719 --> 00:00:39,079
+so um going to production is one thing
+
+16
+00:00:37,480 --> 00:00:41,079
+but keeping it in production is is
+
+17
+00:00:39,079 --> 00:00:42,640
+another thing and so that's the
+
+18
+00:00:41,079 --> 00:00:45,360
+maintaining of it and the backend
+
+19
+00:00:42,640 --> 00:00:47,239
+Solutions right so what's so nice about
+
+20
+00:00:45,360 --> 00:00:49,800
+backend Solutions and the infrastructure
+
+21
+00:00:47,239 --> 00:00:54,960
+company we're currently running is that
+
+22
+00:00:49,800 --> 00:00:57,079
+um the um um yeah it's just it Powers
+
+23
+00:00:54,960 --> 00:00:59,079
+every Enterprise around you it's not
+
+24
+00:00:57,079 --> 00:01:00,879
+visible it's not what the end customers
+
+25
+00:00:59,079 --> 00:01:03,080
+interact with but it's is powering
+
+26
+00:01:00,879 --> 00:01:05,400
+everything and I was interested in the
+
+27
+00:01:03,080 --> 00:01:07,000
+modern digital Enterprise because you
+
+28
+00:01:05,400 --> 00:01:08,520
+know there's a difference between I
+
+29
+00:01:07,000 --> 00:01:10,680
+don't know how in the course you define
+
+30
+00:01:08,520 --> 00:01:13,240
+modern but it doesn't per se matter
+
+31
+00:01:10,680 --> 00:01:15,960
+right so um the digital Enterprises
+
+32
+00:01:13,240 --> 00:01:17,360
+however we have a problem and that's uh
+
+33
+00:01:15,960 --> 00:01:19,640
+there's not enough time to cover all
+
+34
+00:01:17,360 --> 00:01:22,640
+these kind of things so I Cherry Picked
+
+35
+00:01:19,640 --> 00:01:25,400
+two of them right so um I want to talk a
+
+36
+00:01:22,640 --> 00:01:27,439
+little bit about the modern um digital
+
+37
+00:01:25,400 --> 00:01:30,320
+Enterprises and I make a distinction
+
+38
+00:01:27,439 --> 00:01:34,360
+between digital Enterprises and modern
+
+39
+00:01:30,320 --> 00:01:37,200
+because um modern in this case um
+
+40
+00:01:34,360 --> 00:01:39,159
+nowadays that's all about um AI That's
+
+41
+00:01:37,200 --> 00:01:41,920
+also what we work in as a database
+
+42
+00:01:39,159 --> 00:01:44,680
+company so I'll get to that in a bit but
+
+43
+00:01:41,920 --> 00:01:46,119
+I want to talk about that as well um as
+
+44
+00:01:44,680 --> 00:01:48,240
+you heard from the introduction before I
+
+45
+00:01:46,119 --> 00:01:49,880
+started this company I I had another
+
+46
+00:01:48,240 --> 00:01:51,520
+company which was a software consulty
+
+47
+00:01:49,880 --> 00:01:52,799
+form where I was working for a lot of
+
+48
+00:01:51,520 --> 00:01:56,200
+digital
+
+49
+00:01:52,799 --> 00:01:57,719
+Enterprises um they um uh I was
+
+50
+00:01:56,200 --> 00:02:00,880
+basically working on on bringing these
+
+51
+00:01:57,719 --> 00:02:03,119
+kind of Technologies um uh you know to
+
+52
+00:02:00,880 --> 00:02:04,640
+to their customers I do this for quite
+
+53
+00:02:03,119 --> 00:02:06,280
+some time now running this company so
+
+54
+00:02:04,640 --> 00:02:07,799
+that's quite a long time ago but still
+
+55
+00:02:06,280 --> 00:02:12,040
+you know it's it's interesting to touch
+
+56
+00:02:07,799 --> 00:02:14,400
+upon and I have some very um I I I have
+
+57
+00:02:12,040 --> 00:02:17,400
+some some some large opinions on this
+
+58
+00:02:14,400 --> 00:02:19,120
+right so um or some big opinions on this
+
+59
+00:02:17,400 --> 00:02:20,480
+that I that I would like to share and I
+
+60
+00:02:19,120 --> 00:02:24,200
+thought the easiest way to start with
+
+61
+00:02:20,480 --> 00:02:25,480
+the first uh the first one is the uh um
+
+62
+00:02:24,200 --> 00:02:27,200
+oh sorry the two topics that I want to
+
+63
+00:02:25,480 --> 00:02:29,160
+so digital Enterprises and I want to
+
+64
+00:02:27,200 --> 00:02:31,800
+talk about modern means right which is
+
+65
+00:02:29,160 --> 00:02:34,640
+AI in uh nowadays so let's talk about
+
+66
+00:02:31,800 --> 00:02:36,760
+the digital Enterprises so this is
+
+67
+00:02:34,640 --> 00:02:40,000
+somebody that I often use when I talk
+
+68
+00:02:36,760 --> 00:02:42,000
+about software open source software um
+
+69
+00:02:40,000 --> 00:02:45,000
+and then especially the business
+
+70
+00:02:42,000 --> 00:02:46,120
+models this person has nothing to do
+
+71
+00:02:45,000 --> 00:02:49,440
+with
+
+72
+00:02:46,120 --> 00:02:51,920
+software um but I I I like his business
+
+73
+00:02:49,440 --> 00:02:54,120
+so he's he uh he owns a couple of
+
+74
+00:02:51,920 --> 00:02:56,879
+restaurants and a whole restaurant
+
+75
+00:02:54,120 --> 00:02:59,400
+Imperium if you will this is David Chang
+
+76
+00:02:56,879 --> 00:03:01,200
+right so David Chang is he's probably as
+
+77
+00:02:59,400 --> 00:03:03,480
+somewhere officially is the CEO of a
+
+78
+00:03:01,200 --> 00:03:06,799
+company but he um he he is in the
+
+79
+00:03:03,480 --> 00:03:10,159
+restaurant business right and U when you
+
+80
+00:03:06,799 --> 00:03:11,599
+work in the in the um in the restaurant
+
+81
+00:03:10,159 --> 00:03:13,599
+business there's something that we
+
+82
+00:03:11,599 --> 00:03:16,440
+assume from people working in the
+
+83
+00:03:13,599 --> 00:03:18,120
+restaurant business and that is that we
+
+84
+00:03:16,440 --> 00:03:20,720
+assume that they know how to
+
+85
+00:03:18,120 --> 00:03:22,120
+cook right so it's like okay this is
+
+86
+00:03:20,720 --> 00:03:24,120
+Again David Chang and this him in the
+
+87
+00:03:22,120 --> 00:03:26,000
+kitchen I mean and he's just running his
+
+88
+00:03:24,120 --> 00:03:30,120
+business right he has many restaurants
+
+89
+00:03:26,000 --> 00:03:32,280
+he has books he has shows God knows what
+
+90
+00:03:30,120 --> 00:03:33,519
+on net he's on Netflix what you know all
+
+91
+00:03:32,280 --> 00:03:36,280
+these things but he still he knows how
+
+92
+00:03:33,519 --> 00:03:38,720
+to cook right and that's nice because
+
+93
+00:03:36,280 --> 00:03:40,319
+I'm a big believer in this concept of
+
+94
+00:03:38,720 --> 00:03:41,400
+and it's like not exactly the same of
+
+95
+00:03:40,319 --> 00:03:43,280
+what the concept means but it's
+
+96
+00:03:41,400 --> 00:03:47,040
+adjacently related of like the concept
+
+97
+00:03:43,280 --> 00:03:48,519
+of dug fooding right so dark fooding act
+
+98
+00:03:47,040 --> 00:03:50,640
+what it really means is that okayy if
+
+99
+00:03:48,519 --> 00:03:54,360
+you build a a product or service that
+
+100
+00:03:50,640 --> 00:03:59,319
+you use it yourself but I how I like to
+
+101
+00:03:54,360 --> 00:04:02,760
+um um use it in this specific context is
+
+102
+00:03:59,319 --> 00:04:04,680
+that um if if David Chang Works in in
+
+103
+00:04:02,760 --> 00:04:08,120
+the restaurant business we kind of
+
+104
+00:04:04,680 --> 00:04:09,959
+assume um that he knows how to cook and
+
+105
+00:04:08,120 --> 00:04:14,480
+that is something that I often also say
+
+106
+00:04:09,959 --> 00:04:16,199
+about um um you know for example if you
+
+107
+00:04:14,480 --> 00:04:17,959
+have like you know if you take the CEO
+
+108
+00:04:16,199 --> 00:04:21,639
+of Volkswagen right so the question is
+
+109
+00:04:17,959 --> 00:04:23,440
+like should the CEO of Volkswagen do
+
+110
+00:04:21,639 --> 00:04:25,479
+does he or she needs to drive a
+
+111
+00:04:23,440 --> 00:04:28,240
+Volkswagen do they know how the
+
+112
+00:04:25,479 --> 00:04:29,639
+Volkswagen Works uh do they need to be
+
+113
+00:04:28,240 --> 00:04:31,199
+able to just open the hood of the
+
+114
+00:04:29,639 --> 00:04:33,000
+Volkswagen and know exactly how it works
+
+115
+00:04:31,199 --> 00:04:35,240
+how far do we want to go in that right
+
+116
+00:04:33,000 --> 00:04:36,960
+and there's a reason why I do that
+
+117
+00:04:35,240 --> 00:04:38,600
+because I can I can see you all sitting
+
+118
+00:04:36,960 --> 00:04:42,160
+here so not sure if you can see a show
+
+119
+00:04:38,600 --> 00:04:43,960
+of hands but you all work in uh in
+
+120
+00:04:42,160 --> 00:04:46,039
+technology or or have the ambition to
+
+121
+00:04:43,960 --> 00:04:48,560
+work in technology how many of you can
+
+122
+00:04:46,039 --> 00:04:48,560
+actually write
+
+123
+00:04:49,199 --> 00:04:55,160
+code yeah so can that is like if I look
+
+124
+00:04:52,320 --> 00:04:57,160
+at is that half or or maybe a third of
+
+125
+00:04:55,160 --> 00:05:00,199
+the room how how much is this roughly I
+
+126
+00:04:57,160 --> 00:05:02,240
+just a third a third
+
+127
+00:05:00,199 --> 00:05:05,400
+yeah so this is the point that I want to
+
+128
+00:05:02,240 --> 00:05:08,919
+make right so the um I'm a big
+
+129
+00:05:05,400 --> 00:05:10,520
+believer in like what we see with in the
+
+130
+00:05:08,919 --> 00:05:11,639
+restaurant business that we assume that
+
+131
+00:05:10,520 --> 00:05:14,360
+the person running the restaurant
+
+132
+00:05:11,639 --> 00:05:17,440
+business knows how to cook I'm of the
+
+133
+00:05:14,360 --> 00:05:21,280
+opinion that um people working in
+
+134
+00:05:17,440 --> 00:05:23,199
+technology should have at least some
+
+135
+00:05:21,280 --> 00:05:25,840
+understanding of what they're working
+
+136
+00:05:23,199 --> 00:05:27,360
+with and I'll get to to that in a bit by
+
+137
+00:05:25,840 --> 00:05:30,600
+the way in my presentation I have a
+
+138
+00:05:27,360 --> 00:05:32,759
+little bit of code um um because I am
+
+139
+00:05:30,600 --> 00:05:34,759
+dog fooding what I'm saying right now
+
+140
+00:05:32,759 --> 00:05:36,120
+and if you don't know how to write code
+
+141
+00:05:34,759 --> 00:05:37,919
+you can still read it it's not very
+
+142
+00:05:36,120 --> 00:05:40,720
+complex but it makes our point is when
+
+143
+00:05:37,919 --> 00:05:43,280
+we dive into I AI I want to show a
+
+144
+00:05:40,720 --> 00:05:45,080
+little bit of code and that's because if
+
+145
+00:05:43,280 --> 00:05:47,440
+you work in a digital Enterprise right
+
+146
+00:05:45,080 --> 00:05:50,199
+you always have to you have to make this
+
+147
+00:05:47,440 --> 00:05:53,000
+decision are you going to buy or are you
+
+148
+00:05:50,199 --> 00:05:57,479
+going to build right that's always very
+
+149
+00:05:53,000 --> 00:06:00,199
+complex so some are very um uh lean in
+
+150
+00:05:57,479 --> 00:06:02,280
+One Direction where they build
+
+151
+00:06:00,199 --> 00:06:03,680
+everything others lean heavily in
+
+152
+00:06:02,280 --> 00:06:05,840
+another Direction where they buy
+
+153
+00:06:03,680 --> 00:06:08,560
+everything but most of them they
+
+154
+00:06:05,840 --> 00:06:12,599
+gravitate somewhere in the middle right
+
+155
+00:06:08,560 --> 00:06:14,520
+so if you are now let's say bank then
+
+156
+00:06:12,599 --> 00:06:15,400
+there's probably certain infrastructure
+
+157
+00:06:14,520 --> 00:06:18,000
+that you're
+
+158
+00:06:15,400 --> 00:06:19,599
+buying or that you buy services from
+
+159
+00:06:18,000 --> 00:06:20,960
+companies providing the infrastructure
+
+160
+00:06:19,599 --> 00:06:23,120
+but you actually have a lot of people in
+
+161
+00:06:20,960 --> 00:06:25,240
+house that know how to build because of
+
+162
+00:06:23,120 --> 00:06:27,360
+the uniqueness of your infrastructure
+
+163
+00:06:25,240 --> 00:06:29,440
+especially if you have a large
+
+164
+00:06:27,360 --> 00:06:31,280
+Enterprise and the interesting thing of
+
+165
+00:06:29,440 --> 00:06:33,199
+buying and building is sorry for my use
+
+166
+00:06:31,280 --> 00:06:35,080
+of memes today I don't know why I did
+
+167
+00:06:33,199 --> 00:06:37,440
+that but I thought it was funny to try
+
+168
+00:06:35,080 --> 00:06:39,039
+to capture the memes right so what we do
+
+169
+00:06:37,440 --> 00:06:42,280
+when we make decisions about buying and
+
+170
+00:06:39,039 --> 00:06:44,520
+building right is that the um you
+
+171
+00:06:42,280 --> 00:06:46,919
+somehow want to end up on the right end
+
+172
+00:06:44,520 --> 00:06:49,960
+of the spectrum right you want to be
+
+173
+00:06:46,919 --> 00:06:51,840
+that you know Jedi manager that actually
+
+174
+00:06:49,960 --> 00:06:54,440
+knows exactly what the impact is of
+
+175
+00:06:51,840 --> 00:06:57,080
+buying and especially Building inside of
+
+176
+00:06:54,440 --> 00:06:58,599
+the organization rather than just buying
+
+177
+00:06:57,080 --> 00:07:01,360
+stuff and nutting things together off
+
+178
+00:06:58,599 --> 00:07:03,720
+the shelf there's a there's a very
+
+179
+00:07:01,360 --> 00:07:07,120
+famous email that you can find from the
+
+180
+00:07:03,720 --> 00:07:09,440
+early days of um it's somewhere floating
+
+181
+00:07:07,120 --> 00:07:11,000
+around online and or the story is
+
+182
+00:07:09,440 --> 00:07:13,160
+floating around online from people who
+
+183
+00:07:11,000 --> 00:07:16,039
+are in the know from the early days of
+
+184
+00:07:13,160 --> 00:07:19,440
+Amazon with Jeff BOS where he writes and
+
+185
+00:07:16,039 --> 00:07:23,160
+where he apparently wrote an email in uh
+
+186
+00:07:19,440 --> 00:07:24,599
+which he urged everybody to use apis in
+
+187
+00:07:23,160 --> 00:07:27,120
+the very early days he didn't even call
+
+188
+00:07:24,599 --> 00:07:28,160
+them apis yet he just called them I
+
+189
+00:07:27,120 --> 00:07:30,400
+don't know I don't know how he called
+
+190
+00:07:28,160 --> 00:07:31,879
+them but um where I urge everybody that
+
+191
+00:07:30,400 --> 00:07:33,440
+every service that we create in the
+
+192
+00:07:31,879 --> 00:07:36,280
+organization should be connected
+
+193
+00:07:33,440 --> 00:07:37,360
+together using using apis and that is
+
+194
+00:07:36,280 --> 00:07:40,280
+some
+
+195
+00:07:37,360 --> 00:07:42,599
+something um that leadership or or
+
+196
+00:07:40,280 --> 00:07:45,240
+management only can write and only can
+
+197
+00:07:42,599 --> 00:07:47,400
+request if they actually know why you
+
+198
+00:07:45,240 --> 00:07:51,039
+want that and what it does and I'm a
+
+199
+00:07:47,400 --> 00:07:54,240
+strong believer than that dabbling into
+
+200
+00:07:51,039 --> 00:07:55,360
+the technology yourself allows you to
+
+201
+00:07:54,240 --> 00:07:58,479
+understand that especially if you work
+
+202
+00:07:55,360 --> 00:08:00,319
+in the Enterprise and it's up to you to
+
+203
+00:07:58,479 --> 00:08:02,039
+decide how much you want to do that so
+
+204
+00:08:00,319 --> 00:08:05,919
+that's what I meant with the example of
+
+205
+00:08:02,039 --> 00:08:07,919
+the the COO of Volkswagen right so it's
+
+206
+00:08:05,919 --> 00:08:09,800
+up to you to decide if you just need to
+
+207
+00:08:07,919 --> 00:08:11,080
+if this person if you would be the COO
+
+208
+00:08:09,800 --> 00:08:13,240
+Volkswagen would you just want to drive
+
+209
+00:08:11,080 --> 00:08:15,759
+the Volkswagen or should you really know
+
+210
+00:08:13,240 --> 00:08:18,199
+into the NIT gr how the machine works
+
+211
+00:08:15,759 --> 00:08:20,479
+that's up to you but you should at least
+
+212
+00:08:18,199 --> 00:08:21,919
+touch upon it right there's by the way
+
+213
+00:08:20,479 --> 00:08:24,120
+as a last thing to say about this
+
+214
+00:08:21,919 --> 00:08:26,360
+there's also a downside about knowing
+
+215
+00:08:24,120 --> 00:08:28,280
+too much because then you can start to
+
+216
+00:08:26,360 --> 00:08:29,960
+micromanage and those kind of things but
+
+217
+00:08:28,280 --> 00:08:31,400
+there's a very strong case to be made to
+
+218
+00:08:29,960 --> 00:08:35,120
+have some understanding on how these
+
+219
+00:08:31,400 --> 00:08:37,719
+things work so that's a that and um when
+
+220
+00:08:35,120 --> 00:08:39,839
+we take that as an assumption right that
+
+221
+00:08:37,719 --> 00:08:41,880
+we know these kind of things then there
+
+222
+00:08:39,839 --> 00:08:44,720
+are some Core Concepts are interesting
+
+223
+00:08:41,880 --> 00:08:46,320
+and that's all you know close to my
+
+224
+00:08:44,720 --> 00:08:50,040
+heart and and that's like that I find
+
+225
+00:08:46,320 --> 00:08:53,320
+important and um that is one is related
+
+226
+00:08:50,040 --> 00:08:55,720
+to risk management right so um and
+
+227
+00:08:53,320 --> 00:08:57,040
+taking versus avoiding risk because if
+
+228
+00:08:55,720 --> 00:09:00,000
+you know how the software and the
+
+229
+00:08:57,040 --> 00:09:01,480
+technology works in your organization
+
+230
+00:09:00,000 --> 00:09:04,440
+you're willing to take a little bit more
+
+231
+00:09:01,480 --> 00:09:07,399
+risk and one thing that I've seen from
+
+232
+00:09:04,440 --> 00:09:11,800
+the perspective of now a infrastructure
+
+233
+00:09:07,399 --> 00:09:15,279
+being as infrastructure seller versus a
+
+234
+00:09:11,800 --> 00:09:17,720
+um um uh work on the other end of the
+
+235
+00:09:15,279 --> 00:09:19,399
+Spectrum in the form of a consultant is
+
+236
+00:09:17,720 --> 00:09:22,040
+that the knee-jerk reaction of people
+
+237
+00:09:19,399 --> 00:09:25,760
+who do not know how the tax Tech works
+
+238
+00:09:22,040 --> 00:09:29,640
+is that they're often avoid risk and if
+
+239
+00:09:25,760 --> 00:09:33,160
+you avoid risk um your potenti hurting
+
+240
+00:09:29,640 --> 00:09:36,440
+the business and in a very large company
+
+241
+00:09:33,160 --> 00:09:37,920
+you don't per se see that right away but
+
+242
+00:09:36,440 --> 00:09:40,640
+it's something that is if especially if
+
+243
+00:09:37,920 --> 00:09:43,640
+it's is in company culture that can be
+
+244
+00:09:40,640 --> 00:09:45,040
+um um can be dangerous right so one of
+
+245
+00:09:43,640 --> 00:09:46,760
+the things that I urge like the first
+
+246
+00:09:45,040 --> 00:09:49,920
+cor concept is
+
+247
+00:09:46,760 --> 00:09:52,279
+like any business today is a software
+
+248
+00:09:49,920 --> 00:09:53,880
+business and we can only move forward by
+
+249
+00:09:52,279 --> 00:09:56,160
+taking the risk by adopting new
+
+250
+00:09:53,880 --> 00:09:59,640
+technologies and new approaches so
+
+251
+00:09:56,160 --> 00:10:03,560
+rather than being a risk avoider try to
+
+252
+00:09:59,640 --> 00:10:06,480
+be a risk taker and it's like a lawyer
+
+253
+00:10:03,560 --> 00:10:08,360
+right the best lawyers don't tell you
+
+254
+00:10:06,480 --> 00:10:11,000
+what you can't do the best lawyers
+
+255
+00:10:08,360 --> 00:10:13,040
+explain to you how to mitigate the risk
+
+256
+00:10:11,000 --> 00:10:15,519
+that you're dealing with
+
+257
+00:10:13,040 --> 00:10:17,000
+right and how can you do that you know
+
+258
+00:10:15,519 --> 00:10:19,560
+you can do that by knowing how the
+
+259
+00:10:17,000 --> 00:10:21,160
+technology actually works right so and
+
+260
+00:10:19,560 --> 00:10:22,959
+again that does not have to be in the
+
+261
+00:10:21,160 --> 00:10:25,680
+metaphor of the co Volks that you need
+
+262
+00:10:22,959 --> 00:10:27,760
+to be able to you know to open up the
+
+263
+00:10:25,680 --> 00:10:30,120
+hoood and you know fix everything that's
+
+264
+00:10:27,760 --> 00:10:32,279
+in a mod and car no not at all but you
+
+265
+00:10:30,120 --> 00:10:33,959
+should kind of know how the thing works
+
+266
+00:10:32,279 --> 00:10:35,360
+what the what the uniqueness of is of
+
+267
+00:10:33,959 --> 00:10:37,320
+the car and this that's the same for the
+
+268
+00:10:35,360 --> 00:10:40,920
+technology
+
+269
+00:10:37,320 --> 00:10:43,720
+right and then when I talk to people
+
+270
+00:10:40,920 --> 00:10:47,160
+like yourself I always like to make the
+
+271
+00:10:43,720 --> 00:10:50,560
+case for open source I am not
+
+272
+00:10:47,160 --> 00:10:52,160
+a um I'm not religious about open source
+
+273
+00:10:50,560 --> 00:10:54,200
+as I would like to say it but a big
+
+274
+00:10:52,160 --> 00:10:56,040
+believer in it because I think we can
+
+275
+00:10:54,200 --> 00:10:59,360
+build better businesses if from an
+
+276
+00:10:56,040 --> 00:11:01,360
+infrastructure perspective We Trust uh
+
+277
+00:10:59,360 --> 00:11:04,480
+sorry we we rely on open source
+
+278
+00:11:01,360 --> 00:11:06,279
+technology there's a wonderful article
+
+279
+00:11:04,480 --> 00:11:09,320
+that is recently
+
+280
+00:11:06,279 --> 00:11:13,160
+published from uh from Harvard Business
+
+281
+00:11:09,320 --> 00:11:15,760
+School where they um tried to research
+
+282
+00:11:13,160 --> 00:11:18,079
+how much would it cost organizations if
+
+283
+00:11:15,760 --> 00:11:21,200
+they would
+
+284
+00:11:18,079 --> 00:11:23,000
+recreate uh or rewrite the software the
+
+285
+00:11:21,200 --> 00:11:25,680
+open source software that is currently
+
+286
+00:11:23,000 --> 00:11:28,839
+running a production in
+
+287
+00:11:25,680 --> 00:11:31,959
+um uh in the Enterprise and they came up
+
+288
+00:11:28,839 --> 00:11:33,880
+with some nice fancy um formulas to
+
+289
+00:11:31,959 --> 00:11:35,279
+calculate it based on lines of code how
+
+290
+00:11:33,880 --> 00:11:38,240
+long it takes to write them how many
+
+291
+00:11:35,279 --> 00:11:39,680
+Enterprises are running them and I
+
+292
+00:11:38,240 --> 00:11:41,120
+believe that the number they came to was
+
+293
+00:11:39,680 --> 00:11:44,000
+like something like eight trillion or
+
+294
+00:11:41,120 --> 00:11:46,160
+something it's insane so even if you buy
+
+295
+00:11:44,000 --> 00:11:48,519
+proprietary software which is fine
+
+296
+00:11:46,160 --> 00:11:52,639
+there's nothing wrong with that but know
+
+297
+00:11:48,519 --> 00:11:54,800
+that then there's a lot of um um there's
+
+298
+00:11:52,639 --> 00:11:58,320
+a lot of Open Source in that as well
+
+299
+00:11:54,800 --> 00:11:59,560
+right so it's it's very very very rarely
+
+300
+00:11:58,320 --> 00:12:02,480
+that the infrastructure structure stack
+
+301
+00:11:59,560 --> 00:12:04,760
+is really built from the ground up so
+
+302
+00:12:02,480 --> 00:12:06,360
+that almost never happens I mean you
+
+303
+00:12:04,760 --> 00:12:08,360
+could even say if something is super
+
+304
+00:12:06,360 --> 00:12:10,120
+unique but it's written in C well the
+
+305
+00:12:08,360 --> 00:12:12,680
+language of c and the compilers you know
+
+306
+00:12:10,120 --> 00:12:13,880
+there can be open source right so it's a
+
+307
+00:12:12,680 --> 00:12:16,680
+that's that's something that almost
+
+308
+00:12:13,880 --> 00:12:19,040
+never happens and then the question is
+
+309
+00:12:16,680 --> 00:12:20,959
+so what does open source bring to you so
+
+310
+00:12:19,040 --> 00:12:22,920
+if you work in the Enterprise and you
+
+311
+00:12:20,959 --> 00:12:25,240
+adapt open source because maybe you're
+
+312
+00:12:22,920 --> 00:12:28,040
+task with a solving a project working
+
+313
+00:12:25,240 --> 00:12:29,800
+working on something um why open source
+
+314
+00:12:28,040 --> 00:12:32,199
+what are the arguments ments that you
+
+315
+00:12:29,800 --> 00:12:34,800
+have under your belt right that you can
+
+316
+00:12:32,199 --> 00:12:37,360
+adopt first one is
+
+317
+00:12:34,800 --> 00:12:40,920
+trust so I'm a big so the question is
+
+318
+00:12:37,360 --> 00:12:43,160
+like if we trust software vendors with
+
+319
+00:12:40,920 --> 00:12:44,880
+uh with our data right regardless if
+
+320
+00:12:43,160 --> 00:12:46,399
+it's in the cloud or if we keep it on
+
+321
+00:12:44,880 --> 00:12:50,040
+Prem however we deploy
+
+322
+00:12:46,399 --> 00:12:51,600
+it and on Prem nowadays means in the VPC
+
+323
+00:12:50,040 --> 00:12:55,199
+we get in the virtual private Cloud we
+
+324
+00:12:51,600 --> 00:12:57,320
+get to that but the um is trust right so
+
+325
+00:12:55,199 --> 00:12:59,160
+because if if software is publicly
+
+326
+00:12:57,320 --> 00:13:01,639
+available and If people people are
+
+327
+00:12:59,160 --> 00:13:03,079
+contributing to it and contribution is
+
+328
+00:13:01,639 --> 00:13:04,639
+you know especially in infrastructure
+
+329
+00:13:03,079 --> 00:13:07,320
+that's not in the form of actually
+
+330
+00:13:04,639 --> 00:13:09,320
+writing code that happens only sometimes
+
+331
+00:13:07,320 --> 00:13:10,880
+but it's way more in the community that
+
+332
+00:13:09,320 --> 00:13:15,800
+exists around that right the community
+
+333
+00:13:10,880 --> 00:13:18,000
+that emerges the um um uh but also the
+
+334
+00:13:15,800 --> 00:13:20,720
+feedback that are people giving uh to
+
+335
+00:13:18,000 --> 00:13:22,720
+the software I mean the the most
+
+336
+00:13:20,720 --> 00:13:23,600
+important product feedback that we get
+
+337
+00:13:22,720 --> 00:13:25,800
+to our
+
+338
+00:13:23,600 --> 00:13:27,519
+database is not coming from our
+
+339
+00:13:25,800 --> 00:13:29,320
+customers it always comes from the open
+
+340
+00:13:27,519 --> 00:13:32,800
+source Community First
+
+341
+00:13:29,320 --> 00:13:34,839
+and the customers um benefit from that
+
+342
+00:13:32,800 --> 00:13:37,199
+because if we solve it for the customers
+
+343
+00:13:34,839 --> 00:13:39,600
+oh sorry for the community the customers
+
+344
+00:13:37,199 --> 00:13:41,720
+benefit from that so it's the community
+
+345
+00:13:39,600 --> 00:13:43,600
+that comes with that one of the things
+
+346
+00:13:41,720 --> 00:13:45,800
+that you might know or might not know
+
+347
+00:13:43,600 --> 00:13:47,880
+but if you have an open source business
+
+348
+00:13:45,800 --> 00:13:50,880
+an infrastructure business like I
+
+349
+00:13:47,880 --> 00:13:54,759
+run um you actually sell through the
+
+350
+00:13:50,880 --> 00:13:56,399
+community so you might when you're um
+
+351
+00:13:54,759 --> 00:13:58,120
+technology manager you might task
+
+352
+00:13:56,399 --> 00:13:59,519
+somebody in your business to solve a
+
+353
+00:13:58,120 --> 00:14:01,399
+problem
+
+354
+00:13:59,519 --> 00:14:02,519
+in our case those are what we call AI
+
+355
+00:14:01,399 --> 00:14:04,360
+native
+
+356
+00:14:02,519 --> 00:14:05,800
+applications people start to work on
+
+357
+00:14:04,360 --> 00:14:07,360
+that they might adopt some open source
+
+358
+00:14:05,800 --> 00:14:09,639
+technology that might be weate that
+
+359
+00:14:07,360 --> 00:14:11,160
+might be our technology and they reach
+
+360
+00:14:09,639 --> 00:14:13,240
+out to us we connect with them through
+
+361
+00:14:11,160 --> 00:14:15,240
+our community we call that the champion
+
+362
+00:14:13,240 --> 00:14:18,959
+in your organization and that's how you
+
+363
+00:14:15,240 --> 00:14:21,519
+sell up to the organization so Community
+
+364
+00:14:18,959 --> 00:14:24,279
+is a win-win both for the business that
+
+365
+00:14:21,519 --> 00:14:27,000
+you're supporting but also for us right
+
+366
+00:14:24,279 --> 00:14:28,440
+to interact with you and last but not
+
+367
+00:14:27,000 --> 00:14:31,800
+least it's architecture and it's a
+
+368
+00:14:28,440 --> 00:14:36,600
+little bit abstract but if I explain it
+
+369
+00:14:31,800 --> 00:14:38,240
+it probably um um um explains itself and
+
+370
+00:14:36,600 --> 00:14:40,880
+the
+
+371
+00:14:38,240 --> 00:14:43,160
+um if you write
+
+372
+00:14:40,880 --> 00:14:45,320
+software um there's a there's a concept
+
+373
+00:14:43,160 --> 00:14:48,519
+that is I believe um from the top of my
+
+374
+00:14:45,320 --> 00:14:50,440
+head it's uh I believe it's Conway law I
+
+375
+00:14:48,519 --> 00:14:54,160
+might be I might be off let me double
+
+376
+00:14:50,440 --> 00:14:58,000
+check to see that when I'm uh what I'm
+
+377
+00:14:54,160 --> 00:15:00,360
+saying is correct yes so there's um a
+
+378
+00:14:58,000 --> 00:15:02,639
+concept called Conway law and what
+
+379
+00:15:00,360 --> 00:15:04,959
+Conway law basically describes is that
+
+380
+00:15:02,639 --> 00:15:06,800
+it says that the that if you create
+
+381
+00:15:04,959 --> 00:15:08,519
+software in an organization you can see
+
+382
+00:15:06,800 --> 00:15:10,199
+the communication lines of the
+
+383
+00:15:08,519 --> 00:15:12,279
+organization in the
+
+384
+00:15:10,199 --> 00:15:16,880
+software and that also goes on an
+
+385
+00:15:12,279 --> 00:15:20,240
+abstract level so um your software
+
+386
+00:15:16,880 --> 00:15:23,839
+evolves in how you deploy it so for
+
+387
+00:15:20,240 --> 00:15:26,360
+example if um let's take a a famous
+
+388
+00:15:23,839 --> 00:15:30,600
+piece of infrastructure like snowflake
+
+389
+00:15:26,360 --> 00:15:33,560
+right snowflake is close source propri
+
+390
+00:15:30,600 --> 00:15:35,800
+which is again which is fine but the way
+
+391
+00:15:33,560 --> 00:15:38,160
+that it's deployed so that it has like
+
+392
+00:15:35,800 --> 00:15:40,319
+it has this economies of scale effect
+
+393
+00:15:38,160 --> 00:15:43,240
+those kind of things probably means that
+
+394
+00:15:40,319 --> 00:15:44,959
+if they would open source it you
+
+395
+00:15:43,240 --> 00:15:46,519
+couldn't really benefit from it right so
+
+396
+00:15:44,959 --> 00:15:48,399
+you might find some interesting nuggets
+
+397
+00:15:46,519 --> 00:15:49,800
+how they solve problems but it's not
+
+398
+00:15:48,399 --> 00:15:52,839
+that you just can copy paste it and run
+
+399
+00:15:49,800 --> 00:15:54,800
+your own snowflake right and um what
+
+400
+00:15:52,839 --> 00:15:57,279
+happens with open source
+
+401
+00:15:54,800 --> 00:15:58,600
+technology is that open source
+
+402
+00:15:57,279 --> 00:16:01,160
+technology especially infrastructure
+
+403
+00:15:58,600 --> 00:16:03,959
+structure often compiles itself into a
+
+404
+00:16:01,160 --> 00:16:09,000
+single binary and we try to make to take
+
+405
+00:16:03,959 --> 00:16:11,959
+as many um um as many pads or as many
+
+406
+00:16:09,000 --> 00:16:14,839
+channels to provide that um software to
+
+407
+00:16:11,959 --> 00:16:17,880
+our customers and the upside of that for
+
+408
+00:16:14,839 --> 00:16:20,639
+you in the Enterprise is that there are
+
+409
+00:16:17,880 --> 00:16:24,319
+a lot of deployment methods especially
+
+410
+00:16:20,639 --> 00:16:26,440
+nowadays in 20 2024 and beyond that
+
+411
+00:16:24,319 --> 00:16:28,360
+right so if your business wants to adopt
+
+412
+00:16:26,440 --> 00:16:30,600
+surus so that's in the case for example
+
+413
+00:16:28,360 --> 00:16:33,160
+for we're building weate if you want to
+
+414
+00:16:30,600 --> 00:16:35,800
+build adopt surus just a cookie cutter
+
+415
+00:16:33,160 --> 00:16:38,079
+service swpe your credit card good to go
+
+416
+00:16:35,800 --> 00:16:40,800
+we have that on the other end of the
+
+417
+00:16:38,079 --> 00:16:42,519
+spectrum we have bring your own cloud
+
+418
+00:16:40,800 --> 00:16:45,199
+which basically means hey you might be a
+
+419
+00:16:42,519 --> 00:16:49,440
+customer of one of the hyperscalers the
+
+420
+00:16:45,199 --> 00:16:54,880
+hyperscaler feing ad ads aure or go
+
+421
+00:16:49,440 --> 00:16:56,440
+cloud and um um um so and you might say
+
+422
+00:16:54,880 --> 00:16:58,800
+like hey we we need to run the
+
+423
+00:16:56,440 --> 00:17:00,519
+infrastructure inside our virtual
+
+424
+00:16:58,800 --> 00:17:01,680
+private Cloud you can do that too and in
+
+425
+00:17:00,519 --> 00:17:04,000
+the middle of that you have something
+
+426
+00:17:01,680 --> 00:17:05,760
+that we call Enterprise dedicated and
+
+427
+00:17:04,000 --> 00:17:07,319
+other you know other companies have
+
+428
+00:17:05,760 --> 00:17:09,720
+different names for that but the what
+
+429
+00:17:07,319 --> 00:17:13,000
+that mean means for us is basically it
+
+430
+00:17:09,720 --> 00:17:15,360
+is um managed by us uh but you get all
+
+431
+00:17:13,000 --> 00:17:17,799
+the the knobs and and and and whistles
+
+432
+00:17:15,360 --> 00:17:20,439
+and bells and what have you to turn to
+
+433
+00:17:17,798 --> 00:17:24,279
+tweak your your infrastructure why is
+
+434
+00:17:20,438 --> 00:17:27,519
+that important for you as a uh maybe
+
+435
+00:17:24,280 --> 00:17:29,760
+you're already um um working in the
+
+436
+00:17:27,520 --> 00:17:33,679
+Enterprise as in as a as a tech lead or
+
+437
+00:17:29,760 --> 00:17:36,720
+maybe you're aspiring to it is that if
+
+438
+00:17:33,679 --> 00:17:39,360
+you need to make a decision on core
+
+439
+00:17:36,720 --> 00:17:42,960
+infrastructure then if it's open
+
+440
+00:17:39,360 --> 00:17:44,160
+source chances are that the complexities
+
+441
+00:17:42,960 --> 00:17:47,760
+that come with your business and how you
+
+442
+00:17:44,160 --> 00:17:50,120
+want to deploy it can be solved and
+
+443
+00:17:47,760 --> 00:17:53,799
+that's not always the case with
+
+444
+00:17:50,120 --> 00:17:56,240
+SAS so that goes back to to this little
+
+445
+00:17:53,799 --> 00:17:59,520
+joke this little Meme here what this
+
+446
+00:17:56,240 --> 00:18:01,520
+meme shows here is that that on the left
+
+447
+00:17:59,520 --> 00:18:03,720
+hand side and I've been there early in
+
+448
+00:18:01,520 --> 00:18:06,039
+my career you're like oh I'll just build
+
+449
+00:18:03,720 --> 00:18:08,320
+it ourselves right we'll do it ourselves
+
+450
+00:18:06,039 --> 00:18:10,039
+and then oh boy there's so many business
+
+451
+00:18:08,320 --> 00:18:11,960
+complexities that you have to deal with
+
+452
+00:18:10,039 --> 00:18:13,640
+and then you sit in the middle and like
+
+453
+00:18:11,960 --> 00:18:15,679
+I just you know I just want to buy some
+
+454
+00:18:13,640 --> 00:18:17,799
+sauce just get it over with but now
+
+455
+00:18:15,679 --> 00:18:19,520
+you're dealing now you might have the
+
+456
+00:18:17,799 --> 00:18:21,000
+technology but now you're still dealing
+
+457
+00:18:19,520 --> 00:18:23,440
+with this problem of like how are we
+
+458
+00:18:21,000 --> 00:18:25,080
+going to deploy this in our business so
+
+459
+00:18:23,440 --> 00:18:28,080
+where you want to sit is at the right
+
+460
+00:18:25,080 --> 00:18:31,120
+hand bottom right that you know if we
+
+461
+00:18:28,080 --> 00:18:35,200
+Pro properly build it if we properly
+
+462
+00:18:31,120 --> 00:18:39,120
+execute on it for our business right we
+
+463
+00:18:35,200 --> 00:18:41,120
+um um uh we can get have the best of
+
+464
+00:18:39,120 --> 00:18:42,640
+both worlds have a little bit of size a
+
+465
+00:18:41,120 --> 00:18:44,880
+little bit from the infrastructure
+
+466
+00:18:42,640 --> 00:18:46,520
+little bit to align with our business
+
+467
+00:18:44,880 --> 00:18:48,840
+and that is something that open source
+
+468
+00:18:46,520 --> 00:18:51,440
+give you so to recap those kind of
+
+469
+00:18:48,840 --> 00:18:53,480
+things right so what I just talked about
+
+470
+00:18:51,440 --> 00:18:56,400
+like if you n understanding of how the
+
+471
+00:18:53,480 --> 00:18:58,480
+technology works it allows you to take a
+
+472
+00:18:56,400 --> 00:19:00,240
+little bit more risk than avoid it to
+
+473
+00:18:58,480 --> 00:19:02,080
+help the business because if you're a
+
+474
+00:19:00,240 --> 00:19:03,919
+business owner you're just taking risk
+
+475
+00:19:02,080 --> 00:19:06,480
+all the time that's like or well you're
+
+476
+00:19:03,919 --> 00:19:08,679
+mitigating risk all the time right so
+
+477
+00:19:06,480 --> 00:19:09,880
+you want to help your business by taking
+
+478
+00:19:08,679 --> 00:19:12,559
+a little bit of
+
+479
+00:19:09,880 --> 00:19:14,280
+risk and open source might help you in
+
+480
+00:19:12,559 --> 00:19:16,320
+that because especially to the
+
+481
+00:19:14,280 --> 00:19:19,159
+architecture the community and the trust
+
+482
+00:19:16,320 --> 00:19:20,600
+that is built through that you kind of
+
+483
+00:19:19,159 --> 00:19:22,679
+understand and you kind of know like
+
+484
+00:19:20,600 --> 00:19:24,679
+okay probably we can deploy this inside
+
+485
+00:19:22,679 --> 00:19:26,720
+our business that is what it brings to
+
+486
+00:19:24,679 --> 00:19:28,000
+me now then the last thing that I want
+
+487
+00:19:26,720 --> 00:19:30,520
+to talk about so and that's like the
+
+488
+00:19:28,000 --> 00:19:32,600
+third point is modern right so I made an
+
+489
+00:19:30,520 --> 00:19:34,320
+interpretation of modern you're a fancy
+
+490
+00:19:32,600 --> 00:19:36,760
+University so you probably have all
+
+491
+00:19:34,320 --> 00:19:38,640
+kinds of fancy definitions of what these
+
+492
+00:19:36,760 --> 00:19:42,480
+kinds of words mean but I interpreted
+
+493
+00:19:38,640 --> 00:19:44,080
+this as uh AI nowadays and it's a little
+
+494
+00:19:42,480 --> 00:19:46,760
+bit self-serving because I run a
+
+495
+00:19:44,080 --> 00:19:49,640
+business in AI but you know
+
+496
+00:19:46,760 --> 00:19:51,400
+still so and to explain a little bit of
+
+497
+00:19:49,640 --> 00:19:55,159
+what's happening I want to go a little
+
+498
+00:19:51,400 --> 00:19:58,400
+bit back into history right and do we
+
+499
+00:19:55,159 --> 00:20:02,720
+get on what we're doing and um that's
+
+500
+00:19:58,400 --> 00:20:04,960
+because um if you we work in AI native
+
+501
+00:20:02,720 --> 00:20:07,840
+infrastructure and then specifically the
+
+502
+00:20:04,960 --> 00:20:08,919
+subset of that is soal Vector databases
+
+503
+00:20:07,840 --> 00:20:11,880
+we get to
+
+504
+00:20:08,919 --> 00:20:13,919
+that and the pessimistic view might be
+
+505
+00:20:11,880 --> 00:20:15,360
+like hey this is just another data type
+
+506
+00:20:13,919 --> 00:20:18,640
+these vector and Bings and therefore
+
+507
+00:20:15,360 --> 00:20:21,960
+it's not a nosql um uh
+
+508
+00:20:18,640 --> 00:20:24,159
+database um I actually make a different
+
+509
+00:20:21,960 --> 00:20:26,960
+argument and I believe that what AI is
+
+510
+00:20:24,159 --> 00:20:29,320
+enabling us to do with um um with
+
+511
+00:20:26,960 --> 00:20:33,039
+infrastructure is open up the door to
+
+512
+00:20:29,320 --> 00:20:34,960
+something completely new yes no SQL is
+
+513
+00:20:33,039 --> 00:20:37,400
+super important that's not going
+
+514
+00:20:34,960 --> 00:20:42,440
+anywhere but rather than adding to it
+
+515
+00:20:37,400 --> 00:20:44,159
+it's something new on top of it so in
+
+516
+00:20:42,440 --> 00:20:48,280
+you know around the 19080s we had the
+
+517
+00:20:44,159 --> 00:20:50,080
+whole SQ uh SQL or SQL ook right and we
+
+518
+00:20:48,280 --> 00:20:51,919
+had some winners in there right I mean
+
+519
+00:20:50,080 --> 00:20:54,440
+the big winner of course is Oracle
+
+520
+00:20:51,919 --> 00:20:56,360
+Oracle now owns also my SQL which was
+
+521
+00:20:54,440 --> 00:20:59,159
+the open source equivalent also
+
+522
+00:20:56,360 --> 00:21:01,440
+Microsoft a bit with SQL Server right uh
+
+523
+00:20:59,159 --> 00:21:04,080
+transactional databases as you will
+
+524
+00:21:01,440 --> 00:21:06,520
+right um the technical term that we Al
+
+525
+00:21:04,080 --> 00:21:09,799
+always uh use for this or also use for
+
+526
+00:21:06,520 --> 00:21:12,640
+as oltp where the T stands for
+
+527
+00:21:09,799 --> 00:21:15,039
+transactional um the um what might be
+
+528
+00:21:12,640 --> 00:21:17,480
+interesting to know to double click on
+
+529
+00:21:15,039 --> 00:21:19,240
+um quick quick show of hands do people
+
+530
+00:21:17,480 --> 00:21:20,440
+know what a transactional database is
+
+531
+00:21:19,240 --> 00:21:22,960
+what what the te means what
+
+532
+00:21:20,440 --> 00:21:22,960
+transactional
+
+533
+00:21:23,400 --> 00:21:28,360
+means I see no hands so let me quickly
+
+534
+00:21:26,720 --> 00:21:29,600
+double click on that you might find it
+
+535
+00:21:28,360 --> 00:21:33,320
+interesting to
+
+536
+00:21:29,600 --> 00:21:36,080
+know so if you build a database you need
+
+537
+00:21:33,320 --> 00:21:37,679
+to ask yourself the question why do I
+
+538
+00:21:36,080 --> 00:21:39,799
+you know what do I want this to do do I
+
+539
+00:21:37,679 --> 00:21:42,480
+want it to be fast do I want it to be
+
+540
+00:21:39,799 --> 00:21:45,320
+reliable do I those are trade-offs you
+
+541
+00:21:42,480 --> 00:21:48,679
+make in the architecture of building it
+
+542
+00:21:45,320 --> 00:21:51,400
+and a um and a way for let's say that
+
+543
+00:21:48,679 --> 00:21:52,799
+you have an e-commerce uh project let's
+
+544
+00:21:51,400 --> 00:21:54,840
+say that you create a database and you
+
+545
+00:21:52,799 --> 00:21:56,799
+have an e-commerce inventory and you
+
+546
+00:21:54,840 --> 00:21:58,880
+have two products in there and the
+
+547
+00:21:56,799 --> 00:22:02,039
+inventory of the product of one of the
+
+548
+00:21:58,880 --> 00:22:07,120
+products is um 10 so you have one
+
+549
+00:22:02,039 --> 00:22:10,840
+product with 10 you know an inventory of
+
+550
+00:22:07,120 --> 00:22:14,159
+10 now the problem is that if um you if
+
+551
+00:22:10,840 --> 00:22:15,840
+the system is used a lot right so think
+
+552
+00:22:14,159 --> 00:22:17,880
+about for example of a bank right where
+
+553
+00:22:15,840 --> 00:22:20,679
+a lot of transactions are happening or
+
+554
+00:22:17,880 --> 00:22:23,120
+like a a retailer or a wholesaler like
+
+555
+00:22:20,679 --> 00:22:25,440
+like you know the Amazon s
+
+556
+00:22:23,120 --> 00:22:28,159
+Etc the
+
+557
+00:22:25,440 --> 00:22:30,000
+um the problem is like let's say you
+
+558
+00:22:28,159 --> 00:22:33,039
+want to update to the inventory how do
+
+559
+00:22:30,000 --> 00:22:34,880
+you do that so one way of doing it and
+
+560
+00:22:33,039 --> 00:22:37,679
+that's a bit the naive way of doing it
+
+561
+00:22:34,880 --> 00:22:39,840
+is that you could take the product out
+
+562
+00:22:37,679 --> 00:22:42,200
+of the database so let's say that you
+
+563
+00:22:39,840 --> 00:22:44,559
+want the inventory to go down with one
+
+564
+00:22:42,200 --> 00:22:47,679
+you take the product out of the database
+
+565
+00:22:44,559 --> 00:22:51,520
+it says I have an inventory of 10 you
+
+566
+00:22:47,679 --> 00:22:54,120
+remove one it's now it's
+
+567
+00:22:51,520 --> 00:22:55,039
+nine and you put it back right and it
+
+568
+00:22:54,120 --> 00:22:58,080
+says
+
+569
+00:22:55,039 --> 00:23:00,919
+nine but that takes some time that takes
+
+570
+00:22:58,080 --> 00:23:04,200
+a couple of milliseconds to do right so
+
+571
+00:23:00,919 --> 00:23:06,440
+let's say for sake of argument 10
+
+572
+00:23:04,200 --> 00:23:08,559
+whatever right 10
+
+573
+00:23:06,440 --> 00:23:12,600
+milliseconds the problem is that if you
+
+574
+00:23:08,559 --> 00:23:16,320
+are very um um a system that's used a
+
+575
+00:23:12,600 --> 00:23:18,279
+lot but like a lot a lot and you want to
+
+576
+00:23:16,320 --> 00:23:20,679
+guarantee uh that that works you need a
+
+577
+00:23:18,279 --> 00:23:23,679
+transactional system because let's say
+
+578
+00:23:20,679 --> 00:23:25,559
+that we take it out and now we have a
+
+579
+00:23:23,679 --> 00:23:28,559
+time win of 10 milliseconds where we
+
+580
+00:23:25,559 --> 00:23:30,520
+remove something from inventory
+
+581
+00:23:28,559 --> 00:23:33,120
+if now within that 10 seconds somebody
+
+582
+00:23:30,520 --> 00:23:35,400
+else wants to add something and they
+
+583
+00:23:33,120 --> 00:23:39,039
+take it from inventory what happens is
+
+584
+00:23:35,400 --> 00:23:40,440
+this we take it out it says 10 in the
+
+585
+00:23:39,039 --> 00:23:43,679
+meantime we take out another one also
+
+586
+00:23:40,440 --> 00:23:46,919
+says 10 this one goes to nine we put it
+
+587
+00:23:43,679 --> 00:23:49,360
+back this one goes to 11 and we put it
+
+588
+00:23:46,919 --> 00:23:52,200
+back and the inventory in our physical
+
+589
+00:23:49,360 --> 00:23:54,960
+Warehouse should say 10 because we took
+
+590
+00:23:52,200 --> 00:23:56,039
+one out we added one but in the database
+
+591
+00:23:54,960 --> 00:23:58,159
+it will say
+
+592
+00:23:56,039 --> 00:23:59,520
+11 and you could imagine as especially
+
+593
+00:23:58,159 --> 00:24:01,279
+if you're like a bank or like a
+
+594
+00:23:59,520 --> 00:24:03,720
+wholesaler like the Amazon of this world
+
+595
+00:24:01,279 --> 00:24:06,200
+or the Ikeas of this world or the Nikes
+
+596
+00:24:03,720 --> 00:24:08,320
+or what have you we cannot have that
+
+597
+00:24:06,200 --> 00:24:09,440
+because if that goes wrong there's a
+
+598
+00:24:08,320 --> 00:24:13,400
+complete
+
+599
+00:24:09,440 --> 00:24:15,159
+mismatch between your inventory and
+
+600
+00:24:13,400 --> 00:24:17,360
+what's really there so think about
+
+601
+00:24:15,159 --> 00:24:20,840
+everything time Seri management things
+
+602
+00:24:17,360 --> 00:24:22,960
+related to finance inventories stock all
+
+603
+00:24:20,840 --> 00:24:25,000
+those kind of things they ask for
+
+604
+00:24:22,960 --> 00:24:27,880
+transactional databases and the the
+
+605
+00:24:25,000 --> 00:24:30,520
+abbreviation we use for that is the Olt
+
+606
+00:24:27,880 --> 00:24:32,320
+database and the T SS for
+
+607
+00:24:30,520 --> 00:24:35,320
+transactional but then we got other
+
+608
+00:24:32,320 --> 00:24:36,679
+databases that are olap because the
+
+609
+00:24:35,320 --> 00:24:38,640
+problem is that this comes with
+
+610
+00:24:36,679 --> 00:24:40,720
+complexities in the database and
+
+611
+00:24:38,640 --> 00:24:43,240
+sometimes we want to do other things
+
+612
+00:24:40,720 --> 00:24:44,440
+with our databases and a famous example
+
+613
+00:24:43,240 --> 00:24:47,360
+of what we might want to do with these
+
+614
+00:24:44,440 --> 00:24:49,240
+database is analytics right analytics
+
+615
+00:24:47,360 --> 00:24:52,120
+are a little bit different we just want
+
+616
+00:24:49,240 --> 00:24:54,200
+speed we want to we have petabytes of
+
+617
+00:24:52,120 --> 00:24:56,480
+data terabytes of data we want to search
+
+618
+00:24:54,200 --> 00:24:57,799
+through them quickly get to our insights
+
+619
+00:24:56,480 --> 00:24:59,399
+we don't care about that whole
+
+620
+00:24:57,799 --> 00:25:01,799
+transactional thing so now the
+
+621
+00:24:59,399 --> 00:25:04,559
+architecture of the database changes we
+
+622
+00:25:01,799 --> 00:25:07,039
+might still use SQL for it but there's a
+
+623
+00:25:04,559 --> 00:25:09,520
+different use case a great example of a
+
+624
+00:25:07,039 --> 00:25:12,399
+great business there is snowflake that's
+
+625
+00:25:09,520 --> 00:25:15,120
+what snowflakes was
+
+626
+00:25:12,399 --> 00:25:18,120
+right but now the question became like
+
+627
+00:25:15,120 --> 00:25:20,600
+around um like just after the 2000 was
+
+628
+00:25:18,120 --> 00:25:22,440
+like we still need a lot of software
+
+629
+00:25:20,600 --> 00:25:23,840
+infrastructure in our business we still
+
+630
+00:25:22,440 --> 00:25:26,760
+need a lot of
+
+631
+00:25:23,840 --> 00:25:28,919
+databases but it's not really sequel
+
+632
+00:25:26,760 --> 00:25:31,159
+because we might want to do search very
+
+633
+00:25:28,919 --> 00:25:33,240
+well or we want to we might want to
+
+634
+00:25:31,159 --> 00:25:35,960
+build applications that we can quickly
+
+635
+00:25:33,240 --> 00:25:38,360
+bring to developers easy right and we
+
+636
+00:25:35,960 --> 00:25:39,760
+just don't use SQL for that it's just
+
+637
+00:25:38,360 --> 00:25:43,320
+different how it works it's different
+
+638
+00:25:39,760 --> 00:25:47,159
+how the how the architecture works and
+
+639
+00:25:43,320 --> 00:25:48,960
+there we see big Winners like the um the
+
+640
+00:25:47,159 --> 00:25:52,559
+mongod debes and the elastics of this
+
+641
+00:25:48,960 --> 00:25:55,080
+world right so um mongod be is loved by
+
+642
+00:25:52,559 --> 00:25:58,919
+app developers elastic is loved by
+
+643
+00:25:55,080 --> 00:26:00,760
+people building um um log services and
+
+644
+00:25:58,919 --> 00:26:02,760
+and cyber security services those are
+
+645
+00:26:00,760 --> 00:26:04,720
+all infrastructure those are all
+
+646
+00:26:02,760 --> 00:26:08,279
+databases but they're not
+
+647
+00:26:04,720 --> 00:26:09,840
+SQL so now what started to happen was
+
+648
+00:26:08,279 --> 00:26:11,279
+when these machine learning models came
+
+649
+00:26:09,840 --> 00:26:14,200
+to the scene and I started working with
+
+650
+00:26:11,279 --> 00:26:16,360
+them in 2015 was actually that the data
+
+651
+00:26:14,200 --> 00:26:18,279
+that's coming out of these machine
+
+652
+00:26:16,360 --> 00:26:19,520
+learning models was a little bit
+
+653
+00:26:18,279 --> 00:26:22,279
+different they're so-called Vector
+
+654
+00:26:19,520 --> 00:26:24,120
+edings we I just want to be you know
+
+655
+00:26:22,279 --> 00:26:25,399
+careful with time so I'm not going to
+
+656
+00:26:24,120 --> 00:26:27,919
+double click too much on it because if
+
+657
+00:26:25,399 --> 00:26:30,200
+you Google what's the vector Bing you'll
+
+658
+00:26:27,919 --> 00:26:32,799
+the internet is full of it but new
+
+659
+00:26:30,200 --> 00:26:35,960
+databases started to emerge that started
+
+660
+00:26:32,799 --> 00:26:37,799
+to do that that started to interact
+
+661
+00:26:35,960 --> 00:26:39,399
+directly with machine learning models
+
+662
+00:26:37,799 --> 00:26:42,159
+and that's what weate is doing and that
+
+663
+00:26:39,399 --> 00:26:44,520
+is what I would argue is a new Epoch
+
+664
+00:26:42,159 --> 00:26:47,080
+right that is where we sit so we8 and
+
+665
+00:26:44,520 --> 00:26:48,440
+what's in the name weaves the data and
+
+666
+00:26:47,080 --> 00:26:51,880
+the infrastructure you have in your
+
+667
+00:26:48,440 --> 00:26:53,600
+business and the Machine learning models
+
+668
+00:26:51,880 --> 00:26:57,440
+together so that is what I would call
+
+669
+00:26:53,600 --> 00:27:00,320
+the third EPO went from SQL to no SQL to
+
+670
+00:26:57,440 --> 00:27:02,600
+a AI native and to explain how that
+
+671
+00:27:00,320 --> 00:27:05,640
+works in a little bit in an abstract way
+
+672
+00:27:02,600 --> 00:27:10,760
+but in a way for you to um deploy that
+
+673
+00:27:05,640 --> 00:27:12,799
+on any uh um uh um use case that you
+
+674
+00:27:10,760 --> 00:27:14,720
+might have I have a little bit of code
+
+675
+00:27:12,799 --> 00:27:17,600
+to go over that oh no first I have a
+
+676
+00:27:14,720 --> 00:27:19,559
+diagram right so um to show what that is
+
+677
+00:27:17,600 --> 00:27:22,120
+um internally we call that feedback
+
+678
+00:27:19,559 --> 00:27:25,320
+loops um so the feedback loop is you
+
+679
+00:27:22,120 --> 00:27:27,159
+might have an an a GPT model for example
+
+680
+00:27:25,320 --> 00:27:29,679
+right that interacts with the database
+
+681
+00:27:27,159 --> 00:27:32,200
+you might a vectorization model that
+
+682
+00:27:29,679 --> 00:27:34,159
+takes your data can be text images audio
+
+683
+00:27:32,200 --> 00:27:37,039
+what have you that creates soal
+
+684
+00:27:34,159 --> 00:27:38,919
+embeddings for them that is the um the
+
+685
+00:27:37,039 --> 00:27:40,760
+the the data type that the models like
+
+686
+00:27:38,919 --> 00:27:42,640
+to interact with but we can create as
+
+687
+00:27:40,760 --> 00:27:45,320
+you can see this goes in a circle we can
+
+688
+00:27:42,640 --> 00:27:48,159
+create feedback loops with that and so
+
+689
+00:27:45,320 --> 00:27:49,480
+what you basically do you have a user in
+
+690
+00:27:48,159 --> 00:27:51,919
+our case that's often a software
+
+691
+00:27:49,480 --> 00:27:55,679
+developer the software developer uses a
+
+692
+00:27:51,919 --> 00:27:58,399
+driver in python typescript or any other
+
+693
+00:27:55,679 --> 00:28:00,480
+and or they store information
+
+694
+00:27:58,399 --> 00:28:02,519
+by factorizing it so by telling the
+
+695
+00:28:00,480 --> 00:28:04,240
+machine learning model this is the data
+
+696
+00:28:02,519 --> 00:28:08,039
+that I'm going to store store this for
+
+697
+00:28:04,240 --> 00:28:10,760
+me or we can now use the llms or the or
+
+698
+00:28:08,039 --> 00:28:13,559
+or by actually the multimodal um model
+
+699
+00:28:10,760 --> 00:28:16,600
+so just for your understanding llm
+
+700
+00:28:13,559 --> 00:28:18,519
+stench for large language model that's
+
+701
+00:28:16,600 --> 00:28:20,640
+was last year the whole craze like with
+
+702
+00:28:18,519 --> 00:28:22,399
+GPT and now you see it with with other
+
+703
+00:28:20,640 --> 00:28:24,919
+models as well but this is the year of
+
+704
+00:28:22,399 --> 00:28:28,360
+the multimodal model so the multimodal
+
+705
+00:28:24,919 --> 00:28:32,000
+model it takes in text but it also takes
+
+706
+00:28:28,360 --> 00:28:34,360
+in video audio images and it outputs
+
+707
+00:28:32,000 --> 00:28:37,919
+that right so that's the multimodal
+
+708
+00:28:34,360 --> 00:28:40,480
+model and or we can as a user store data
+
+709
+00:28:37,919 --> 00:28:42,559
+directly into the database but the
+
+710
+00:28:40,480 --> 00:28:44,440
+important thing here is that the model
+
+711
+00:28:42,559 --> 00:28:47,720
+starts to interact with your data so
+
+712
+00:28:44,440 --> 00:28:50,720
+what can we do with that why is that new
+
+713
+00:28:47,720 --> 00:28:53,600
+right so let's say that I have an
+
+714
+00:28:50,720 --> 00:28:56,039
+instruction right so I have an
+
+715
+00:28:53,600 --> 00:28:58,399
+instruction about my data and I say name
+
+716
+00:28:56,039 --> 00:29:00,200
+and description should be in English
+
+717
+00:28:58,399 --> 00:29:03,480
+right that is the description that I'm
+
+718
+00:29:00,200 --> 00:29:05,039
+giving um and let's say that I'm in that
+
+719
+00:29:03,480 --> 00:29:08,200
+I'm entering some data and this is
+
+720
+00:29:05,039 --> 00:29:12,440
+Airbnb data this the use case is Airbnb
+
+721
+00:29:08,200 --> 00:29:16,640
+data so um as you can see the property a
+
+722
+00:29:12,440 --> 00:29:19,559
+name MJS one and in um in in a town in
+
+723
+00:29:16,640 --> 00:29:22,120
+um Korea we have a description which is
+
+724
+00:29:19,559 --> 00:29:26,080
+clearly in Korean and we have a price
+
+725
+00:29:22,120 --> 00:29:28,559
+per night and um the problem is all
+
+726
+00:29:26,080 --> 00:29:31,240
+existing Data Systems work like this
+
+727
+00:29:28,559 --> 00:29:34,320
+even on Airbnb right now right so if I
+
+728
+00:29:31,240 --> 00:29:35,960
+store this this this piece of data this
+
+729
+00:29:34,320 --> 00:29:38,240
+is literally what's stored in the
+
+730
+00:29:35,960 --> 00:29:40,200
+database but what we're instructing the
+
+731
+00:29:38,240 --> 00:29:42,240
+model with is that name so here you see
+
+732
+00:29:40,200 --> 00:29:45,440
+name and description here you see
+
+733
+00:29:42,240 --> 00:29:48,200
+description should be in English so what
+
+734
+00:29:45,440 --> 00:29:51,880
+now happens is that if we store that
+
+735
+00:29:48,200 --> 00:29:55,039
+data and we get it back so we say fetch
+
+736
+00:29:51,880 --> 00:29:58,320
+object we'll actually see that how it's
+
+737
+00:29:55,039 --> 00:30:00,120
+stored is that it says basic cooking
+
+738
+00:29:58,320 --> 00:30:02,159
+cooking utensils and table wear such as
+
+739
+00:30:00,120 --> 00:30:04,159
+port and frying pans are provided etc
+
+740
+00:30:02,159 --> 00:30:07,679
+etc that's actually what it says here in
+
+741
+00:30:04,159 --> 00:30:09,600
+Korean right so what we start to do and
+
+742
+00:30:07,679 --> 00:30:11,600
+that's the uniqueness that's happening
+
+743
+00:30:09,600 --> 00:30:13,880
+oh this is this is also for the vector
+
+744
+00:30:11,600 --> 00:30:16,080
+Bing you can ignore that for now but
+
+745
+00:30:13,880 --> 00:30:18,080
+what actually starts to happen is that
+
+746
+00:30:16,080 --> 00:30:20,320
+the in this case large language model
+
+747
+00:30:18,080 --> 00:30:23,000
+but it can also be the multimodal models
+
+748
+00:30:20,320 --> 00:30:25,880
+they be they become our database admins
+
+749
+00:30:23,000 --> 00:30:31,600
+they start to create update read or
+
+750
+00:30:25,880 --> 00:30:33,918
+delete data for us so 89% of data is
+
+751
+00:30:31,600 --> 00:30:35,840
+unstructured in the world right now
+
+752
+00:30:33,919 --> 00:30:39,799
+dealing with that cleaning with that is
+
+753
+00:30:35,840 --> 00:30:41,679
+a huge problem right and what now starts
+
+754
+00:30:39,799 --> 00:30:44,320
+to happen is that the models start to
+
+755
+00:30:41,679 --> 00:30:46,919
+become your database admins for all
+
+756
+00:30:44,320 --> 00:30:48,919
+kinds of workloads and that is what I
+
+757
+00:30:46,919 --> 00:30:53,399
+call AI native right that's that new
+
+758
+00:30:48,919 --> 00:30:55,600
+step in um in technology so um that's
+
+759
+00:30:53,399 --> 00:30:57,240
+all that's what I wanted to share today
+
+760
+00:30:55,600 --> 00:30:59,159
+in the time that I had I hope this was
+
+761
+00:30:57,240 --> 00:31:01,559
+was helpful and insightful and I'm happy
+
+762
+00:30:59,159 --> 00:31:05,880
+to answer a couple of questions if you
+
+763
+00:31:01,559 --> 00:31:05,880
+if you have any thank you
+
+764
+00:31:08,000 --> 00:31:14,760
+both thank
+
+765
+00:31:11,159 --> 00:31:17,679
+you very much which did the database and
+
+766
+00:31:14,760 --> 00:31:21,600
+also with the next week which are going
+
+767
+00:31:17,679 --> 00:31:23,639
+to do a little bit about hybrid D how AI
+
+768
+00:31:21,600 --> 00:31:29,159
+will help us work together like
+
+769
+00:31:23,639 --> 00:31:29,159
+cabora so yeah question
+
+770
+00:31:29,960 --> 00:31:33,679
+anybody especially this
+
+771
+00:31:46,240 --> 00:31:53,799
+Tech Lou I can repeat is it possible to
+
+772
+00:31:51,639 --> 00:31:55,480
+encrypt
+
+773
+00:31:53,799 --> 00:31:58,000
+Vector
+
+774
+00:31:55,480 --> 00:32:00,760
+B Bing
+
+775
+00:31:58,000 --> 00:32:04,679
+so um that depends a little bit how you
+
+776
+00:32:00,760 --> 00:32:07,760
+look at it so um if you mean literal
+
+777
+00:32:04,679 --> 00:32:10,399
+encryption you can of course do that
+
+778
+00:32:07,760 --> 00:32:13,559
+what you cannot do is that sometimes
+
+779
+00:32:10,399 --> 00:32:15,480
+people um have mistaken the vector
+
+780
+00:32:13,559 --> 00:32:19,080
+embedding themselves as a type of
+
+781
+00:32:15,480 --> 00:32:22,760
+encryption so for those in the in the
+
+782
+00:32:19,080 --> 00:32:24,760
+room who do not know a um a sentence
+
+783
+00:32:22,760 --> 00:32:25,799
+gets um for example if you talk about
+
+784
+00:32:24,760 --> 00:32:28,559
+Tex
+
+785
+00:32:25,799 --> 00:32:30,360
+sentence um uh uh gets a numeral
+
+786
+00:32:28,559 --> 00:32:34,000
+representation in the form of of
+
+787
+00:32:30,360 --> 00:32:38,519
+so-called um floating points so you have
+
+788
+00:32:34,000 --> 00:32:41,440
+if you have the sentence um um uh Bob
+
+789
+00:32:38,519 --> 00:32:44,080
+gives a talk at our arus University then
+
+790
+00:32:41,440 --> 00:32:47,200
+the output of that might be an array of
+
+791
+00:32:44,080 --> 00:32:48,600
+numbers and uh sometimes people pitch
+
+792
+00:32:47,200 --> 00:32:50,840
+that they say hey that's a form of
+
+793
+00:32:48,600 --> 00:32:53,559
+encryption but that's actually not true
+
+794
+00:32:50,840 --> 00:32:56,600
+there's now um uh quite some scientific
+
+795
+00:32:53,559 --> 00:32:59,039
+literature where they can quite well not
+
+796
+00:32:56,600 --> 00:33:02,720
+100% but decipher what's in a vector
+
+797
+00:32:59,039 --> 00:33:05,960
+embedding so the vector embedding itself
+
+798
+00:33:02,720 --> 00:33:07,919
+does not count as encryption but if you
+
+799
+00:33:05,960 --> 00:33:11,039
+just want to encrypt in the database you
+
+800
+00:33:07,919 --> 00:33:11,039
+can of course you can do
+
+801
+00:33:25,960 --> 00:33:28,960
+that
+
+802
+00:33:29,559 --> 00:33:32,200
+yeah can can can somebody repeat the
+
+803
+00:33:31,120 --> 00:33:34,880
+question a little bit closer to the
+
+804
+00:33:32,200 --> 00:33:40,320
+microphone because I I did not hear the
+
+805
+00:33:34,880 --> 00:33:42,559
+you see the AI Vector database as is
+
+806
+00:33:40,320 --> 00:33:45,120
+like complimentary to SQL or is
+
+807
+00:33:42,559 --> 00:33:48,000
+replacing the trend for the
+
+808
+00:33:45,120 --> 00:33:50,600
+future yeah so what what I believe is
+
+809
+00:33:48,000 --> 00:33:53,120
+that the it's what it's mostly going to
+
+810
+00:33:50,600 --> 00:33:58,600
+change is how we interact with our
+
+811
+00:33:53,120 --> 00:34:03,639
+data so um the status quote today we are
+
+812
+00:33:58,600 --> 00:34:06,720
+so used to um um
+
+813
+00:34:03,639 --> 00:34:08,919
+um like we're literally storing the data
+
+814
+00:34:06,720 --> 00:34:11,320
+that we get in in the
+
+815
+00:34:08,919 --> 00:34:13,280
+database and then that's also what we
+
+816
+00:34:11,320 --> 00:34:17,520
+get out and we present to end customers
+
+817
+00:34:13,280 --> 00:34:19,720
+or end users right we are not used to
+
+818
+00:34:17,520 --> 00:34:22,320
+this way of working that there's a model
+
+819
+00:34:19,720 --> 00:34:26,200
+sitting next to the database that helps
+
+820
+00:34:22,320 --> 00:34:29,000
+us better more efficiently Etc store or
+
+821
+00:34:26,200 --> 00:34:31,720
+retrieve that data so that was the
+
+822
+00:34:29,000 --> 00:34:35,200
+example I was giving in the demo right
+
+823
+00:34:31,720 --> 00:34:39,240
+so um if you have if you s like oh as a
+
+824
+00:34:35,200 --> 00:34:41,839
+as a data um somebody is is is is
+
+825
+00:34:39,240 --> 00:34:44,399
+responsible for data management um
+
+826
+00:34:41,839 --> 00:34:46,079
+everybody should start data in English
+
+827
+00:34:44,398 --> 00:34:50,118
+right that's just an example but if
+
+828
+00:34:46,079 --> 00:34:51,440
+people don't do that right then what and
+
+829
+00:34:50,118 --> 00:34:54,398
+now today it just stored in the
+
+830
+00:34:51,440 --> 00:34:55,879
+databases however people store it but
+
+831
+00:34:54,398 --> 00:34:57,519
+now you can give the model the
+
+832
+00:34:55,878 --> 00:34:59,639
+assignment like hey if you encounter
+
+833
+00:34:57,520 --> 00:35:01,599
+something that's not in English just
+
+834
+00:34:59,640 --> 00:35:03,560
+translated to English but it could also
+
+835
+00:35:01,599 --> 00:35:06,880
+be the case that if somebody uh let's
+
+836
+00:35:03,560 --> 00:35:08,000
+say that you say all data we store in um
+
+837
+00:35:06,880 --> 00:35:11,119
+in our
+
+838
+00:35:08,000 --> 00:35:13,200
+database should follow the metric
+
+839
+00:35:11,119 --> 00:35:15,720
+system so if then somebody store
+
+840
+00:35:13,200 --> 00:35:18,359
+something with and says like 10
+
+841
+00:35:15,720 --> 00:35:21,359
+gallons then it's the model that's
+
+842
+00:35:18,359 --> 00:35:23,880
+actually updating that to uh to leaders
+
+843
+00:35:21,359 --> 00:35:25,920
+right and we can go very very far with
+
+844
+00:35:23,880 --> 00:35:27,760
+that it's just the model helping you to
+
+845
+00:35:25,920 --> 00:35:29,920
+do data management so to answer the
+
+846
+00:35:27,760 --> 00:35:32,160
+question I think this is a completely
+
+847
+00:35:29,920 --> 00:35:35,240
+new paradigm how we start to work with
+
+848
+00:35:32,160 --> 00:35:38,880
+our data this is not doing something
+
+849
+00:35:35,240 --> 00:35:41,000
+faster or doing something uh uh more
+
+850
+00:35:38,880 --> 00:35:44,680
+efficient no no no it's it's a complete
+
+851
+00:35:41,000 --> 00:35:49,440
+new paradigm how we're dealing with data
+
+852
+00:35:44,680 --> 00:35:52,280
+management thank you so much any other
+
+853
+00:35:49,440 --> 00:35:55,280
+question I have a question like because
+
+854
+00:35:52,280 --> 00:36:01,280
+you were speaking about open source and
+
+855
+00:35:55,280 --> 00:36:04,119
+last okay so how do you uh see the AI in
+
+856
+00:36:01,280 --> 00:36:06,920
+the last you
+
+857
+00:36:04,119 --> 00:36:10,240
+like like because can you trust like you
+
+858
+00:36:06,920 --> 00:36:15,359
+talk about trust like but the AI can do
+
+859
+00:36:10,240 --> 00:36:15,359
+like Stu doing own things like so how
+
+860
+00:36:16,599 --> 00:36:21,920
+does so I mean so I think what's very
+
+861
+00:36:19,920 --> 00:36:23,520
+important to bear in mind is that the
+
+862
+00:36:21,920 --> 00:36:26,839
+model that we're
+
+863
+00:36:23,520 --> 00:36:29,480
+using or any model that you're using
+
+864
+00:36:26,839 --> 00:36:31,359
+right is a bunch of weights right so
+
+865
+00:36:29,480 --> 00:36:33,200
+it's a bunch of Weights that makes a
+
+866
+00:36:31,359 --> 00:36:35,560
+prediction especially if you look at
+
+867
+00:36:33,200 --> 00:36:38,560
+generative models about
+
+868
+00:36:35,560 --> 00:36:41,560
+like word I mean practically we call it
+
+869
+00:36:38,560 --> 00:36:45,000
+tokens but let's park that from so word
+
+870
+00:36:41,560 --> 00:36:46,760
+after word after word after word so uh
+
+871
+00:36:45,000 --> 00:36:48,720
+that means that it sometimes might be
+
+872
+00:36:46,760 --> 00:36:55,160
+wrong right in how it predicts word
+
+873
+00:36:48,720 --> 00:36:57,680
+after word after word so the um the case
+
+874
+00:36:55,160 --> 00:37:01,200
+that I was just making for an llm
+
+875
+00:36:57,680 --> 00:37:03,400
+helping you to um uh do your data
+
+876
+00:37:01,200 --> 00:37:05,000
+management better and more efficient
+
+877
+00:37:03,400 --> 00:37:07,760
+comes at the
+
+878
+00:37:05,000 --> 00:37:10,040
+cost that is just not a binary output
+
+879
+00:37:07,760 --> 00:37:12,680
+and that it sometimes might be wrong
+
+880
+00:37:10,040 --> 00:37:14,560
+right that's that's the cost that that
+
+881
+00:37:12,680 --> 00:37:16,560
+that's what we what we're paying with if
+
+882
+00:37:14,560 --> 00:37:18,839
+you will I don't mean financially paying
+
+883
+00:37:16,560 --> 00:37:20,280
+but it's like that's the cost of the
+
+884
+00:37:18,839 --> 00:37:23,960
+Innovation
+
+885
+00:37:20,280 --> 00:37:25,720
+basically and on the other hand you can
+
+886
+00:37:23,960 --> 00:37:29,839
+answer so so what I meant with trust
+
+887
+00:37:25,720 --> 00:37:32,720
+here can we trust the model
+
+888
+00:37:29,839 --> 00:37:34,440
+well not in the sense of that we do not
+
+889
+00:37:32,720 --> 00:37:36,520
+know what the output will be we can't
+
+890
+00:37:34,440 --> 00:37:37,599
+guarantee the output that's coming from
+
+891
+00:37:36,520 --> 00:37:40,440
+the
+
+892
+00:37:37,599 --> 00:37:43,079
+model but the business value that's
+
+893
+00:37:40,440 --> 00:37:44,560
+coming out of using the model is in some
+
+894
+00:37:43,079 --> 00:37:47,359
+cases so
+
+895
+00:37:44,560 --> 00:37:50,119
+large that it's just
+
+896
+00:37:47,359 --> 00:37:54,400
+fine to accept that risk that it's
+
+897
+00:37:50,119 --> 00:37:57,640
+sometimes wrong right and that is the um
+
+898
+00:37:54,400 --> 00:38:00,720
+uh uh uh that is the example that I gave
+
+899
+00:37:57,640 --> 00:38:02,520
+with risk avoidance versus risk taking
+
+900
+00:38:00,720 --> 00:38:04,359
+because if you have risk avoidant in
+
+901
+00:38:02,520 --> 00:38:06,400
+your business you might say oh let's not
+
+902
+00:38:04,359 --> 00:38:07,680
+use AI because you know it can be
+
+903
+00:38:06,400 --> 00:38:10,359
+sometimes can be
+
+904
+00:38:07,680 --> 00:38:13,359
+wrong but what you then you're throwing
+
+905
+00:38:10,359 --> 00:38:14,800
+away you know uh what's the saying uh
+
+906
+00:38:13,359 --> 00:38:16,680
+the the child with the bat water right
+
+907
+00:38:14,800 --> 00:38:18,680
+because you're you're missing out on all
+
+908
+00:38:16,680 --> 00:38:21,480
+this opportunity right so that is why
+
+909
+00:38:18,680 --> 00:38:24,079
+I'm inviting people just to take one
+
+910
+00:38:21,480 --> 00:38:27,280
+step further and and and mitigate that
+
+911
+00:38:24,079 --> 00:38:31,079
+risk the other thing about trust
+
+912
+00:38:27,280 --> 00:38:33,520
+with open source is the model itself
+
+913
+00:38:31,079 --> 00:38:35,680
+because a model is stateless that means
+
+914
+00:38:33,520 --> 00:38:37,400
+like an MP3 file that you might play
+
+915
+00:38:35,680 --> 00:38:39,800
+that if I copy paste it and I have two
+
+916
+00:38:37,400 --> 00:38:41,400
+of them I have twice the value but I
+
+917
+00:38:39,800 --> 00:38:43,960
+might from a business perspective not be
+
+918
+00:38:41,400 --> 00:38:47,040
+able to capture the value twice that
+
+919
+00:38:43,960 --> 00:38:49,079
+means that to bring these models to the
+
+920
+00:38:47,040 --> 00:38:51,319
+world is that we need to come up with
+
+921
+00:38:49,079 --> 00:38:52,640
+Spotify like models as I like to call
+
+922
+00:38:51,319 --> 00:38:54,960
+them and I don't mean machine learning
+
+923
+00:38:52,640 --> 00:38:57,359
+models but business models so that they
+
+924
+00:38:54,960 --> 00:38:58,720
+sit behind a payall
+
+925
+00:38:57,359 --> 00:39:00,800
+and that so for example if you use open
+
+926
+00:38:58,720 --> 00:39:02,400
+AI right you need to make an API key you
+
+927
+00:39:00,800 --> 00:39:04,480
+get access to it and you get that stuff
+
+928
+00:39:02,400 --> 00:39:07,960
+back you can use in your business but
+
+929
+00:39:04,480 --> 00:39:09,440
+the the issue with that might be that
+
+930
+00:39:07,960 --> 00:39:12,280
+you need to send that data over the
+
+931
+00:39:09,440 --> 00:39:13,880
+buyer somewhere and then yeah you don't
+
+932
+00:39:12,280 --> 00:39:16,200
+know what's happening with that and then
+
+933
+00:39:13,880 --> 00:39:18,839
+something comes back right for a lot of
+
+934
+00:39:16,200 --> 00:39:21,319
+used cases that's fine but sometimes it
+
+935
+00:39:18,839 --> 00:39:24,319
+isn't and there open source again plays
+
+936
+00:39:21,319 --> 00:39:29,839
+a role and now the trade-off is like
+
+937
+00:39:24,319 --> 00:39:31,800
+make buy versus uh built if you are
+
+938
+00:39:29,839 --> 00:39:33,560
+building a customer service platform
+
+939
+00:39:31,800 --> 00:39:35,800
+you're probably fine with using that
+
+940
+00:39:33,560 --> 00:39:38,440
+service but if you want to uh if you're
+
+941
+00:39:35,800 --> 00:39:39,839
+using it for legal documents or those
+
+942
+00:39:38,440 --> 00:39:41,880
+kind of things you want to have maybe a
+
+943
+00:39:39,839 --> 00:39:44,200
+little bit more control and keep the
+
+944
+00:39:41,880 --> 00:39:46,440
+data closer to you and meaning that you
+
+945
+00:39:44,200 --> 00:39:48,560
+will need to operate the model yourself
+
+946
+00:39:46,440 --> 00:39:49,680
+and so that's again that trust trade-off
+
+947
+00:39:48,560 --> 00:39:51,800
+between the businesses that you're
+
+948
+00:39:49,680 --> 00:39:54,160
+working with and the open source models
+
+949
+00:39:51,800 --> 00:39:56,680
+that just are you know you to use and to
+
+950
+00:39:54,160 --> 00:39:59,440
+take uh and control yourself with and
+
+951
+00:39:56,680 --> 00:40:04,000
+you have like a 100% trust guarantee if
+
+952
+00:39:59,440 --> 00:40:04,000
+you will so that those two tradeoffs you
+
+953
+00:40:04,800 --> 00:40:10,280
+have any other
+
+954
+00:40:07,839 --> 00:40:18,319
+question yeah
+
+955
+00:40:10,280 --> 00:40:21,800
+one it like elastic sear and AI power me
+
+956
+00:40:18,319 --> 00:40:21,800
+like inverted
+
+957
+00:40:23,750 --> 00:40:27,200
+[Music]
+
+958
+00:40:25,359 --> 00:40:30,040
+index
+
+959
+00:40:27,200 --> 00:40:30,040
+okay my question
+
+960
+00:40:42,119 --> 00:40:47,359
+was a combination of is like embedded
+
+961
+00:40:45,800 --> 00:40:50,760
+from what I understand like is the
+
+962
+00:40:47,359 --> 00:40:53,560
+embedded like inside the
+
+963
+00:40:50,760 --> 00:40:55,960
+the is that two different paradigms like
+
+964
+00:40:53,560 --> 00:40:58,200
+the database and the Machine learning or
+
+965
+00:40:55,960 --> 00:41:01,680
+is like kind of one thing like how you
+
+966
+00:40:58,200 --> 00:41:04,440
+operate like your database like
+
+967
+00:41:01,680 --> 00:41:04,440
+operations
+
+968
+00:41:14,760 --> 00:41:17,760
+like
+
+969
+00:41:20,040 --> 00:41:24,319
+question make the
+
+970
+00:41:25,240 --> 00:41:28,240
+faster
+
+971
+00:41:31,800 --> 00:41:36,400
+do you hear
+
+972
+00:41:33,280 --> 00:41:37,760
+the no I I can't I can't hear it so it's
+
+973
+00:41:36,400 --> 00:41:38,680
+it sounds like a very interesting
+
+974
+00:41:37,760 --> 00:41:43,880
+question
+
+975
+00:41:38,680 --> 00:41:43,880
+but it sounds like it's like it's
+
+976
+00:41:44,240 --> 00:41:48,400
+like set tool and
+
+977
+00:41:50,640 --> 00:41:58,240
+then and we
+
+978
+00:41:53,560 --> 00:41:58,240
+back my question is like is it
+
+979
+00:42:01,560 --> 00:42:09,200
+so he's asking like elastic is like
+
+980
+00:42:05,440 --> 00:42:12,880
+reverse index set so it say like is the
+
+981
+00:42:09,200 --> 00:42:17,359
+comparable like that what they doing is
+
+982
+00:42:12,880 --> 00:42:17,359
+like compar to the the
+
+983
+00:42:19,040 --> 00:42:24,680
+vector plus
+
+984
+00:42:22,280 --> 00:42:26,400
+AI so I think I think I understand the
+
+985
+00:42:24,680 --> 00:42:28,240
+question so is the is the question is
+
+986
+00:42:26,400 --> 00:42:31,200
+the vector index comparable to the
+
+987
+00:42:28,240 --> 00:42:34,480
+inverted index in lastic yeah exactly
+
+988
+00:42:31,200 --> 00:42:37,800
+okay thank you yeah uh
+
+989
+00:42:34,480 --> 00:42:40,839
+no so um and let let me let me double
+
+990
+00:42:37,800 --> 00:42:44,640
+click a little bit on that right so um
+
+991
+00:42:40,839 --> 00:42:46,920
+um the inverted index is is is the is a
+
+992
+00:42:44,640 --> 00:42:49,960
+completely different type of index than
+
+993
+00:42:46,920 --> 00:42:52,520
+the vector indexes so the uh actually in
+
+994
+00:42:49,960 --> 00:42:58,040
+we8 there's also uninverted index for
+
+995
+00:42:52,520 --> 00:43:01,160
+the key Value Store um the um uh making
+
+996
+00:42:58,040 --> 00:43:03,720
+a vector index is you basically need to
+
+997
+00:43:01,160 --> 00:43:07,680
+solve a couple of problems so the first
+
+998
+00:43:03,720 --> 00:43:09,280
+problem is that um if you do Brute Force
+
+999
+00:43:07,680 --> 00:43:11,079
+Vector search you could do that right so
+
+1000
+00:43:09,280 --> 00:43:12,839
+you take an embedding you compare it to
+
+1001
+00:43:11,079 --> 00:43:16,040
+another one same embeding compared to
+
+1002
+00:43:12,839 --> 00:43:17,920
+another one same eding compar etc etc
+
+1003
+00:43:16,040 --> 00:43:20,400
+that's the brute force method the
+
+1004
+00:43:17,920 --> 00:43:23,960
+problem is is that that gets slower in a
+
+1005
+00:43:20,400 --> 00:43:25,760
+linear way so um if you if you store a
+
+1006
+00:43:23,960 --> 00:43:28,200
+thousand or 10,000 data objects you
+
+1007
+00:43:25,760 --> 00:43:31,200
+don't know notice it but if you have
+
+1008
+00:43:28,200 --> 00:43:34,520
+like 100 thousand a million let alone
+
+1009
+00:43:31,200 --> 00:43:35,960
+billions um it gets very slow to get an
+
+1010
+00:43:34,520 --> 00:43:38,720
+answer and if you have real-time use
+
+1011
+00:43:35,960 --> 00:43:40,640
+cases that's problematic and therefore
+
+1012
+00:43:38,720 --> 00:43:42,720
+there was these algorithms were um
+
+1013
+00:43:40,640 --> 00:43:46,319
+invented are called approximate nearest
+
+1014
+00:43:42,720 --> 00:43:48,079
+neighbor algorithms and um the U what
+
+1015
+00:43:46,319 --> 00:43:52,520
+you basically did was that these
+
+1016
+00:43:48,079 --> 00:43:55,280
+algorithms were uh able to very fast do
+
+1017
+00:43:52,520 --> 00:43:56,760
+Factor comparison at the cost of
+
+1018
+00:43:55,280 --> 00:44:00,319
+approximation
+
+1019
+00:43:56,760 --> 00:44:02,359
+so you can't have a 100% guarantee that
+
+1020
+00:44:00,319 --> 00:44:03,760
+um the the actual nearest neighbors are
+
+1021
+00:44:02,359 --> 00:44:07,760
+the actual nearest
+
+1022
+00:44:03,760 --> 00:44:09,800
+neighbors you might miss one if you will
+
+1023
+00:44:07,760 --> 00:44:12,800
+but the thing is like there's there's so
+
+1024
+00:44:09,800 --> 00:44:15,400
+much faster that the tradeoff is
+
+1025
+00:44:12,800 --> 00:44:18,440
+perfectly fine is and we're not talking
+
+1026
+00:44:15,400 --> 00:44:20,880
+about like 80% uh and 20% but we're
+
+1027
+00:44:18,440 --> 00:44:24,240
+talking about like
+
+1028
+00:44:20,880 --> 00:44:26,800
+99 whatever percent but not 100 right so
+
+1029
+00:44:24,240 --> 00:44:30,319
+that tradeoff that was like um veryable
+
+1030
+00:44:26,800 --> 00:44:32,359
+now the thing was if you open up elastic
+
+1031
+00:44:30,319 --> 00:44:34,680
+search what you see under the hoood is
+
+1032
+00:44:32,359 --> 00:44:37,640
+something called theine Lucine is an
+
+1033
+00:44:34,680 --> 00:44:39,880
+inverted index which is it's very old
+
+1034
+00:44:37,640 --> 00:44:41,079
+and it's very it's very widely adopted
+
+1035
+00:44:39,880 --> 00:44:42,359
+and it's it's a great piece of
+
+1036
+00:44:41,079 --> 00:44:45,119
+technology that great people have been
+
+1037
+00:44:42,359 --> 00:44:46,800
+working on but the problem is that the
+
+1038
+00:44:45,119 --> 00:44:50,000
+way that Lucine is built from an
+
+1039
+00:44:46,800 --> 00:44:52,359
+architecture perspective is not optimal
+
+1040
+00:44:50,000 --> 00:44:54,000
+for the vector index and this is why you
+
+1041
+00:44:52,359 --> 00:44:56,960
+saw these new indices and these new
+
+1042
+00:44:54,000 --> 00:45:00,520
+databases being created and not have
+
+1043
+00:44:56,960 --> 00:45:02,680
+this added to um uh uh to elastic early
+
+1044
+00:45:00,520 --> 00:45:05,160
+on and now you might say well but now
+
+1045
+00:45:02,680 --> 00:45:07,319
+today they have it yes that's true today
+
+1046
+00:45:05,160 --> 00:45:09,280
+every database supports some form of
+
+1047
+00:45:07,319 --> 00:45:10,559
+vector search which is great because
+
+1048
+00:45:09,280 --> 00:45:13,640
+that shows that there's value in the
+
+1049
+00:45:10,559 --> 00:45:15,880
+market but um um the thing is that the
+
+1050
+00:45:13,640 --> 00:45:17,880
+the way that the indues work are very
+
+1051
+00:45:15,880 --> 00:45:19,400
+different I if you really wanted to go
+
+1052
+00:45:17,880 --> 00:45:21,200
+into the NIT gritty I would highly
+
+1053
+00:45:19,400 --> 00:45:23,839
+recommend on the weate website you have
+
+1054
+00:45:21,200 --> 00:45:26,440
+a Blog and you can just read about it
+
+1055
+00:45:23,839 --> 00:45:28,480
+and exactly how that's built and and and
+
+1056
+00:45:26,440 --> 00:45:29,920
+get some background information and by
+
+1057
+00:45:28,480 --> 00:45:32,119
+the way because I'm looking at the time
+
+1058
+00:45:29,920 --> 00:45:34,520
+I I need to U I'm I'm already five
+
+1059
+00:45:32,119 --> 00:45:37,520
+minutes late for my next EMP but what I
+
+1060
+00:45:34,520 --> 00:45:39,720
+want to say is the website contains a
+
+1061
+00:45:37,520 --> 00:45:42,720
+lot of information and I would invite
+
+1062
+00:45:39,720 --> 00:45:44,520
+everybody to just find me on LinkedIn
+
+1063
+00:45:42,720 --> 00:45:46,240
+and if you have any additional questions
+
+1064
+00:45:44,520 --> 00:45:47,839
+just shoot me a message on LinkedIn and
+
+1065
+00:45:46,240 --> 00:45:50,240
+I'm happy to answer all the other
+
+1066
+00:45:47,839 --> 00:45:52,359
+questions that you have uh but this is
+
+1067
+00:45:50,240 --> 00:45:55,280
+this is great so I hope you enjoyed it
+
+1068
+00:45:52,359 --> 00:45:57,240
+super thank you so much I would share
+
+1069
+00:45:55,280 --> 00:45:59,440
+the information I put in the bright
+
+1070
+00:45:57,240 --> 00:46:01,760
+space like give all the materials for
+
+1071
+00:45:59,440 --> 00:46:04,240
+the students so if anybody wants to go
+
+1072
+00:46:01,760 --> 00:46:07,000
+I'm pretty sure they will be and like
+
+1073
+00:46:04,240 --> 00:46:09,599
+thank you once again for the fascinating
+
+1074
+00:46:07,000 --> 00:46:11,880
+talk and for the fascinating new
+
+1075
+00:46:09,599 --> 00:46:17,960
+technology which you bring like now get
+
+1076
+00:46:11,880 --> 00:46:17,960
+very much so yeah one more let's thank
+
+1077
+00:46:19,240 --> 00:46:27,079
+BK you also here in Denmark sometime
+
+1078
+00:46:23,400 --> 00:46:29,680
+like thank you wonderful to you byebye
+
+1079
+00:46:27,079 --> 00:46:29,680
+all right
+
+1080
+00:46:34,400 --> 00:46:37,400
+thanks
+

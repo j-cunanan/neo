@@ -1,4 +1,3 @@
-import type { NextApiRequest, NextApiResponse } from "next";
 import { NextRequest, NextResponse } from "next/server";
 import { YoutubeTranscript } from "youtube-transcript";
 import { promises as fs } from "fs";
@@ -25,7 +24,6 @@ export async function GET(req: NextRequest, res: NextResponse) {
       const end = new Date((item.offset + item.duration))
         .toISOString()
         .substring(11, 23);
-      console.log(item.offset, item.duration);
       srtContent += `${index + 1}\n${start.replace(".", ",")} --> ${end.replace(
         ".",
         ","

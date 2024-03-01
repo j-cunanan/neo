@@ -1,15 +1,25 @@
 import { StreamingTextResponse } from "ai";
-import { ChatMessage, MessageContent, OpenAI } from "llamaindex";
+import {
+  ChatMessage,
+  MessageContent,
+  OpenAI,
+  serviceContextFromDefaults,
+} from "llamaindex";
 import { NextRequest, NextResponse } from "next/server";
-import { createChatEngine } from "./engine";
 import { LlamaIndexStream } from "./llamaindex-stream";
+import { createChatEngine, createChatEngineV1 } from "./engine";
+import {
+  DATASOURCES_CHUNK_OVERLAP,
+  DATASOURCES_CHUNK_SIZE,
+} from "@/app/constant";
+import { Embedding } from "@/app/client/fetch/url";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const convertMessageContent = (
   textMessage: string,
-  imageUrl: string | undefined,
+  imageUrl: string | undefined
 ): MessageContent => {
   if (!imageUrl) return textMessage;
   return [
@@ -37,7 +47,7 @@ export async function POST(request: NextRequest) {
           error:
             "messages are required in the request body and the last message must be from the user",
         },
-        { status: 400 },
+        { status: 400 }
       );
     }
 
@@ -46,12 +56,17 @@ export async function POST(request: NextRequest) {
       maxTokens: 512,
     });
 
+    // const serviceContext = serviceContextFromDefaults({
+    //   llm,
+    //   chunkSize: DATASOURCES_CHUNK_SIZE,
+    //   chunkOverlap: DATASOURCES_CHUNK_OVERLAP,
+    // });
     const chatEngine = await createChatEngine(llm);
 
     // Convert message content from Vercel/AI format to LlamaIndex/OpenAI format
     const userMessageContent = convertMessageContent(
       userMessage.content,
-      data?.imageUrl,
+      data?.imageUrl
     );
 
     // Calling LlamaIndex's ChatEngine to get a streamed response
@@ -78,7 +93,7 @@ export async function POST(request: NextRequest) {
       },
       {
         status: 500,
-      },
+      }
     );
   }
 }

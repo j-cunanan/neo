@@ -3,6 +3,17 @@ import React, { useState, useEffect } from 'react';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { PlusIcon, ReloadIcon } from '@radix-ui/react-icons'
+import { FileWrap } from '../utils/file';
+import { URLDetailContent } from '../client/fetch/url';
+
+export async function fetchSiteContent(
+  site: string | URL,
+): Promise<URLDetailContent> {
+  const response = await fetch(`/api/fetch?site=${site}`);
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error);
+  return data as URLDetailContent;
+}
 
 const SidePanel: React.FC = () => {
   const [links, setLinks] = useState<string[]>([
@@ -54,28 +65,21 @@ const SidePanel: React.FC = () => {
       });
       for (const blog_link of blog_links) {
         console.log(`Ingesting blog ${blog_link}...`);
-        const response = await fetch('../api/ingest-blog', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ url: blog_link }),
-        });
-        const result = await response.json();
-        console.log(result);
+        const response = await fetch(`../api/fetch?site=${blog_link}`);;
+        console.log(response);
       }
       // After all transcripts have been ingested, generate the datasource
-      const doctype = 'md'; // or 'txt', depending on what you want to send
+      // const doctype = 'md'; // or 'txt', depending on what you want to send
 
-      await fetch('/api/generate', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json', // Indicates that the body contains JSON
-        },
-        body: JSON.stringify({
-          doctype: doctype, // Include the doctype in the request body
-        }),
-      });
+      // await fetch('/api/generate', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json', // Indicates that the body contains JSON
+      //   },
+      //   body: JSON.stringify({
+      //     doctype: doctype, // Include the doctype in the request body
+      //   }),
+      // });
       setIsLoading(false);
 
     } catch (error) {

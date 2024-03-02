@@ -39,7 +39,15 @@ const convertMessageContent = (
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { messages, data }: { messages: ChatMessage[]; data: any } = body;
+    const {
+      messages,
+      data,
+      embeddings,
+    }: {
+      messages: ChatMessage[];
+      data: any;
+      embeddings: Embedding[] | undefined;
+    } = body;
     const userMessage = messages.pop();
     if (!messages || !userMessage || userMessage.role !== "user") {
       return NextResponse.json(
@@ -56,12 +64,14 @@ export async function POST(request: NextRequest) {
       maxTokens: 512,
     });
 
-    // const serviceContext = serviceContextFromDefaults({
-    //   llm,
-    //   chunkSize: DATASOURCES_CHUNK_SIZE,
-    //   chunkOverlap: DATASOURCES_CHUNK_OVERLAP,
-    // });
+    const serviceContext = serviceContextFromDefaults({
+      llm,
+      chunkSize: DATASOURCES_CHUNK_SIZE,
+      chunkOverlap: DATASOURCES_CHUNK_OVERLAP,
+    });
+
     const chatEngine = await createChatEngine(llm);
+    // const chatEngine = await createChatEngineV1(serviceContext, embeddings);
 
     // Convert message content from Vercel/AI format to LlamaIndex/OpenAI format
     const userMessageContent = convertMessageContent(

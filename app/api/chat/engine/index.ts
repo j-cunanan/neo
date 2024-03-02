@@ -75,11 +75,12 @@ async function createIndex(
 
 export async function createChatEngineV1(
   serviceContext: ServiceContext,
-  embeddings: Embedding[]
+  embeddings: Embedding[] | undefined
 ) {
   let index;
-
-  index = await createIndex(serviceContext, embeddings);
+  if (embeddings) {
+    index = await createIndex(serviceContext, embeddings);
+  }
 
   const retriever = index!.asRetriever();
   retriever.similarityTopK = 5;

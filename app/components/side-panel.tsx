@@ -5,6 +5,7 @@ import { Button } from './ui/button';
 import { PlusIcon, ReloadIcon } from '@radix-ui/react-icons'
 import { FileWrap } from '../utils/file';
 import { URLDetailContent } from '../client/fetch/url';
+import * as fs from 'node:fs/promises';
 
 export async function fetchSiteContent(
   site: string | URL,
@@ -65,8 +66,24 @@ const SidePanel: React.FC = () => {
       });
       for (const blog_link of blog_links) {
         console.log(`Ingesting blog ${blog_link}...`);
-        const response = await fetch(`../api/fetch?site=${blog_link}`);;
-        console.log(response);
+        const response = await fetchSiteContent(blog_link);
+        const embeddings = response.embeddings;
+        
+        const firstMessage = {
+          role: 'user',
+          content: 'Summarize the given context briefly in 200 words or less',
+        };
+        await fetch(`/api/chat`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            messages: [firstMessage],
+            embeddings: embeddings,
+          }),
+        });
+
       }
       // After all transcripts have been ingested, generate the datasource
       // const doctype = 'md'; // or 'txt', depending on what you want to send
